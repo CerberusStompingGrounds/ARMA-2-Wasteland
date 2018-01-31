@@ -1,0 +1,1 @@
+private["_linq"];_linq=0;{_linq=_linq+(_x call jdme);nil}count _this;_linq

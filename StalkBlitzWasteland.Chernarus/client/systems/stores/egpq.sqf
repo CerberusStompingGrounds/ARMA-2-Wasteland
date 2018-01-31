@@ -1,0 +1,1 @@
+#include "functions\ckbl.sqf"private["_lfug","_budu","_yyas"];_lfug=uiNamespace getVariable'storeDialog';_budu=lbText[storeCategoriesIDC,lbCurSel storeCategoriesIDC];_yyas=(uiNamespace getVariable'storeCfg')select 1;[_yyas,_budu]call fvig;

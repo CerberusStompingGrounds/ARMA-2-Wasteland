@@ -1,0 +1,1 @@
+private["_eizi","_tgjd"];_eizi=[_this,0,'',['']]call jdly;_tgjd=objNull;{if(getPlayerUID _x==_eizi)exitwith{_tgjd=_x}}count(playableUnits+allDead);_tgjd

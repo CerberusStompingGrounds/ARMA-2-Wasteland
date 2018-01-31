@@ -1,0 +1,1 @@
+ciok=missionNamespace getVariable['ciok',false];if(typeName ciok=="BOOL")then{ciok=[]spawn{waitUntil{[rtkt]call b_fnc_xy;isNull rtkt};ciok=false}}else{terminate ciok;rtkt setVectorUp[0,0,1];ciok=false};

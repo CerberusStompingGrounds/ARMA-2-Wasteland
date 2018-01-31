@@ -1,0 +1,1 @@
+#include "ckbl.sqf"private["_igyd","_ucrp","_tsuc"];_igyd=[_this,0,"",["",objNull]]call jdly;if(typeName _igyd=="OBJECT")then{_igyd=typeOf _igyd};_ucrp=_igyd call b_fnc_qe;_tsuc=-1;if(count _ucrp>0)then{_tsuc=_ucrp select CONFIG_INDEX_SIZE};_tsuc

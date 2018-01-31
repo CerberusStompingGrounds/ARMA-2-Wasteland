@@ -1,0 +1,1 @@
+#include "functions\ckbl.sqf"_iewr=(uiNamespace getVariable'gearDialog')displayCtrl ammoListIDC;_joqv=_iewr lbData(lbCurSel _iewr);_joqv=call compile _joqv;_joqv call ppsd;

@@ -1,0 +1,1 @@
+private["_adys","_x1","_x2"];_adys=_this select 0;_x1=_this select 1;_x2=_this select 2;!(((_adys select 0)<(_x1 select 0)||(_adys select 0)>(_x2 select 0))||((_adys select 1)<(_x1 select 1)||(_adys select 1)>(_x2 select 1)))

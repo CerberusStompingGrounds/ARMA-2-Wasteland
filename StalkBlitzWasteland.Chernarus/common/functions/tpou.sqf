@@ -1,0 +1,1 @@
+private["_xwvg","_ncrb"];_xwvg=[_this,0,objNull,[objNull]]call jdly;_ncrb=[_this,1,[0,0,0],[[]],[3]]call jdly;if(local _xwvg)then{_xwvg setVelocity _ncrb}else{[_this,"rmsp",_xwvg]call acwq};

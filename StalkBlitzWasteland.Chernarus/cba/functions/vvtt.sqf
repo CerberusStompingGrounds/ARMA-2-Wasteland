@@ -1,0 +1,1 @@
+#include "script_macros_common.hpp"PARAMS_1(_rcki);while{_rcki<0}do{_rcki=_rcki+360};if(_rcki>360)then{_rcki=_rcki mod 360};_rcki;

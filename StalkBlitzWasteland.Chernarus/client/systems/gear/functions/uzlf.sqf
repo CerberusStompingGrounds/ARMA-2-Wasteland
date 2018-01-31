@@ -1,0 +1,1 @@
+#include "ckbl.sqf"zqht=missionNamespace getVariable['zqht',[]];zqht set[count zqht,_this];[(uiNamespace getVariable'gearDialog')displayCtrl cartListIDC,zqht]call bzai;[]call svzl;

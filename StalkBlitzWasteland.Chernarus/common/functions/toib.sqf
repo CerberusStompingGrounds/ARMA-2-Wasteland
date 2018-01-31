@@ -1,0 +1,1 @@
+private["_auvk","_mfdl"];_auvk=[_this,0,player,[objNull]]call jdly;_mfdl=_auvk getVariable['reen',0];if(typeName _mfdl!="SCALAR")then{_mfdl=parseNumber _mfdl};_mfdl

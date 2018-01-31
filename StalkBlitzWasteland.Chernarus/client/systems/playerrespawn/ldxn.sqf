@@ -1,0 +1,1 @@
+bbbd=bbbd - 1;['respawnDialogUpdate']call shqc;

@@ -1,0 +1,1 @@
+private["_spvc","_enmw"];_spvc=[_this,0,"",[""]]call jdly;_enmw=[_spvc]call ppgl;['groupInvite',[_enmw,name player]]call ugyo;jwqf set[count jwqf,_spvc];

@@ -1,0 +1,1 @@
+private["_ghwr"];_ghwr=[_this,0,"EMPTY",[""]]call jdly;_ghwr call{if(_this=="FRIENDLY")exitwith{"ColorGreen"};if(_this=="ENEMY")exitwith{"ColorRed"};if(_this=="MIXED")exitwith{"ColorOrange"};"ColorBlack"}

@@ -1,0 +1,1 @@
+private["_azdg","_awcc","_bdxl","_clam","_pyry","_cgwi","_hjzc"];;_azdg=[_this,0,objNull,[objNull]]call jdly;_awcc=boundingBox _azdg;_bdxl=_awcc select 0;_clam=_awcc select 1;_pyry=abs((_clam select 0)-(_bdxl select 0));_cgwi=abs((_clam select 1)-(_bdxl select 1));_hjzc=abs((_clam select 2)-(_bdxl select 2));[_pyry,_cgwi,_hjzc]

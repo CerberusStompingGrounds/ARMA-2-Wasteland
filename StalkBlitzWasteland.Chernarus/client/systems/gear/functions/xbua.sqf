@@ -1,0 +1,1 @@
+private["_bxdg"];_bxdg=[_this,0,player,[player]]call jdly;[magazines _bxdg,weapons _bxdg,currentWeapon _bxdg,_bxdg getVariable['x_player_backpack',[]]]

@@ -1,0 +1,7 @@
+sleep 30;_wlof=[["#cc2a36","Join Our Free Discord Voice Server!","#FFFFFF","www.stalkandstrikegaming.com"],["#cc2a36","New to wasteland?","#FFFFFF","Check out our WIKI to learn all about it"],["#cc2a36","Can't Find A Mod Or Admin?","#FFFFFF","Head over to the website and click on SUPPORT."],["#cc2a36","Donator LoadOuts","#FFFFFF","Donator loadouts! Lite = $2500 Ingame Currency"],["#cc2a36","Donator LoadOuts","#FFFFFF","Donator loadouts! Standard = $4500 Ingame Currency + Rep. Kit"],["#cc2a36","Donator LoadOuts","#FFFFFF","Donator loadouts! Premium = $6500 Ingame Currency + Rep. Kit + Medkit + *Spawn Beacon (*Unavailable on Tactical)"],["#cc2a36","Donator LoadOuts","#FFFFFF","Donator loadouts! Elite = $8500 Ingame Currency + Rep. Kit (x2) + Medkit (x2) + *Spawn Beacon (*Unavailable on Tactical)"],["#cc2a36","Changelog","#FFFFFF","Visit the website for details"],["#cc2a36","Support The Server","#FFFFFF","Donation loadouts available"],["#cc2a36","Auto Restarts","#FFFFFF","This server restarts every 6 hours automatically"]];while{true}do{sleep 300;_arcv=_wlof select(random(count _wlof - 1));hint parseText format["
+	
+		<t align='center' color='%1' shadow='1' shadowColor='#000000' size='1.50'>%2</t><br/>
+		<t align='center' color='#FFFFFF' shadow='2' shadowColor='#000000' size='1.00'>____________________________</t><br/>
+		<t align='center' color='%3' size='1.25'>%4</t><br/>
+		
+	",(_arcv select 0),(_arcv select 1),(_arcv select 2),(_arcv select 3)]};

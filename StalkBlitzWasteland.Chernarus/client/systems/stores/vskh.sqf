@@ -1,0 +1,1 @@
+#include "functions\ckbl.sqf"disableSerialization;uiNamespace setVariable['storeDialog',_this select 0];

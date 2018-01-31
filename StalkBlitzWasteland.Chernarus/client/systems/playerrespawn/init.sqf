@@ -1,0 +1,22 @@
+#include "functions\ckbl.sqf"['airBeacon','Air Beacon','airBeaconModel'call bdra,[],{_volr=getPlayerUID player;_gcwl=true;if({(_x select 1)==_volr}count uaig>=2)then{if('autoRemoveBeacon'call bdra)then{{if((_x select 1)==_volr)exitwith{[_x select 2]call mzrg}}count uaig}else{hint'You may only have two beacons deployed at a time.';_gcwl=false}};if(_gcwl)then{[15,"Deploying Air Beacon %1",[],{['air',getPosATL player,getDir player]call imdp;player setPos([getPosATL player,1,getDir player]call bis_fnc_relpos);['airBeacon']call tfyi}]call byng}}]call xwjs;['groundBeacon','Ground Beacon','groundBeaconModel'call bdra,[],{_volr=getPlayerUID player;_gcwl=true;if({(_x select 1)==_volr}count uaig>=2)then{if('autoRemoveBeacon'call bdra)then{{if((_x select 1)==_volr)exitwith{[_x select 2]call mzrg}}count uaig}else{hint'You may only have two beacons deployed at a time.';_gcwl=false}};if(_gcwl)then{[15,"Deploying Ground Beacon %1",[],{['ground',getPosATL player,getDir player]call imdp;['groundBeacon']call tfyi}]call byng}}]call xwjs;if(!hasInterface)exitwith{};nxiw=[[],"EMPTY"]call zfdd;ngdw=[[],[[],"EMPTY"]]call zfdd;inno=[[],[objNull,0,0]]call zfdd;bbbd=0;vzpf=[];xtsf=[[],[]]call zfdd;uaig=missionNamespace getVariable['uaig',[]];khyw=false;[]spawn{waitUntil{!isNull player&&player==player};waitUntil{!isNil"bis_fnc_init"};waitUntil{!(isNull(findDisplay 46))};ghmi=getPosATL mapcenter;["radarUpdate",{private["_zsrf","_jknp","_xmgz","_dsaf"];_jknp=_this select 0;_zsrf=_this select 1 select 0;_dsaf=_this select 1 select 1;_xmgz=[_jknp]call mlks;[nxiw,_zsrf,[_jknp,_xmgz,_dsaf]]call zbrm;[xtsf,'towns',[nxiw]call wmxg]call zbrm;['respawnDialogUpdate']call shqc}]call ngfr;["beaconUpdate",{private["_jknp","_jsuh","_xmgz"];_jknp=_this select 0;_jsuh=_this select 1 select 0;_xmgz=[_jknp]call mlks;[ngdw,_jsuh,[_jknp,_xmgz]]call zbrm;[xtsf,'beacons',[ngdw]call jkuy]call zbrm;['respawnDialogUpdate']call shqc}]call ngfr;["airUpdate",{_tnyc=_this select 0;_wnhp=_this select 1;_tsmi=_this select 2;_agfk=_this select 3;[inno,_tnyc,[_wnhp,_tsmi,_agfk]]call zbrm;[xtsf,'airVehicles',[inno]call cckr]call zbrm;['respawnDialogUpdate']call shqc}]call ngfr;['respawnDialogUpdate',{if!(isNull(findDisplay respawnDialogIDD))then{_oxrt=[];{_oxrt=_oxrt+_x}count(xtsf select 2);[_oxrt]call teag}}]call ngfr;"uaig"addPublicVariableEventHandler{[xtsf,'beacons',[ngdw]call jkuy]call zbrm;['respawnDialogUpdate']call shqc};player addEventHandler["killed",{ghmi=getPosATL(_this select 0)}];player addEventHandler["respawn",{khyw=true;(_this select 0)allowDamage false;(_this select 0)enableSimulation false;createDialog"BLrespawnDialog"}];['groupChange',{[nxiw,{_value set[1,[_value select 0]call mlks]}]call qwvt;[xtsf,'towns',[nxiw]call wmxg]call zbrm;[xtsf,'airVehicles',[inno]call cckr]call zbrm;[xtsf,'beacons',[ngdw]call jkuy]call zbrm;['respawnDialogUpdate']call shqc}]call ngfr;[xtsf,'beacons',[ngdw]call jkuy]call zbrm;['respawnDialogUpdate']call shqc;while{true}do{{if(!((_x select 2)getVariable['mute',false]))then{(_x select 2)say3D"beacon"}}count uaig;sleep 3}};_zdic=compile format['((_this select 0) isKindOf "%1" || (_this select 0) isKindOf "%2") && !isNil {(_this select 0) getVariable "beaconType"}','airBeaconModel'call bdra,'groundBeaconModel'call bdra];private["_jfbh"];_jfbh="
+	private ['_owner', '_text'];
+	_owner = objNull;
+	_text = '<t color=''%1''>%2 beacon';
+	
+	{
+		if ( (_x select 2) == (_this select 0) ) exitwith {
+			_owner = [_x select 1] call fqef;
+		};
+	} count uaig;
+	
+	if ( [[_owner]] call mlks == 'FRIENDLY' ) then {
+		_text = _text + ' (Friendly)';
+	}
+	else {
+		if ( !isNull _owner ) then {
+			_text = _text + ' (Enemy)';
+		};
+	};
+
+	_text + '</t>';
+";[compile format[_jfbh,'#3cff00','Repack'],_zdic,{[60,"Repacking Beacon %1",_this,{(format['%1Beacon',(_this select 0)getVariable'beaconType'])call xpip;[_this select 0]call mzrg}]call byng},1]call hzak;[compile format[_jfbh,'#ff0000','Destroy'],_zdic,{[30,"Destroying Beacon %1",_this,{[_this select 0]call mzrg}]call byng},1]call hzak;[{if((_this select 0)getVariable['mute',false])then{"<t color='#FF0000'>Unmute</t>"}else{"<t color='#00a3e1'>Mute</t>"}},_zdic,{(_this select 0)setVariable['mute',!((_this select 0)getVariable['mute',false])]},1]call hzak;

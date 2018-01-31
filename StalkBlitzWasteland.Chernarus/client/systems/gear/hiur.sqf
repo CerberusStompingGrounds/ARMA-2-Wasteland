@@ -1,0 +1,1 @@
+#include "functions\ckbl.sqf"disableSerialization;_qcke=_this select 0;uiNamespace setVariable['saveAsPresetDialog',_qcke];(_qcke displayCtrl savePresetIDC)ctrlEnable false;bl_gearpresets=profileNamespace getVariable['bl_gearpresets',[]call zfdd];_tkwj=_qcke displayCtrl overwritePresetIDC;[bl_gearpresets,{_tkwj lbAdd _key}]call qwvt;

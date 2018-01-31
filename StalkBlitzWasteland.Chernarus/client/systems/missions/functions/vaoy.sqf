@@ -1,0 +1,1 @@
+private["_vgsi","_elcb","_xage"];_vgsi=_this select 0;_elcb=_this select 1;_xage=format["<t align='center'>MISSION %1<br/><br/>%2</t>",_vgsi,_elcb select 1];[_vgsi call gmgc,[1,1,1,1],_xage]call hsmm;

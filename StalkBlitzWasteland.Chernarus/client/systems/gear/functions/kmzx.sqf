@@ -1,0 +1,1 @@
+((_this call jdme)!=-1)

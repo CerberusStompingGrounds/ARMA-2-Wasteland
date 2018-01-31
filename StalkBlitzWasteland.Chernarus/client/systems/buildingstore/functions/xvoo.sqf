@@ -1,0 +1,1 @@
+private["_mxvs","_scux","_xwww"];_mxvs=[_this,0,[0,0,0],[[]],[3]]call jdly;_scux=[_this,1,5,[0]]call jdly;_xwww=objNull;{if(_x call b_fnc_rc>0)exitwith{_xwww=_x}}forEach(nearestObjects[_mxvs,["All"],_scux]);_xwww

@@ -1,0 +1,1 @@
+_this spawn{waitUntil{isNull(_this select 1)};[]call wtqp;[]call idyw};

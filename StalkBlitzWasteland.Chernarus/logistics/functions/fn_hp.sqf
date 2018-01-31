@@ -1,0 +1,1 @@
+#include "ckbl.sqf"private["_dfgm","_abaa","_bznx"];_dfgm=[_this,0,"",[""]]call jdly;_bznx="";_abaa=_dfgm call b_fnc_qe;if(count _abaa>0)then{if(count _abaa>CONFIG_INDEX_OVERRIDENAME&&{_abaa select CONFIG_INDEX_OVERRIDENAME!=""})then{_bznx=_abaa select CONFIG_INDEX_OVERRIDENAME}else{_bznx=getText(configFile>>"CfgVehicles">>_dfgm>>"displayName")}};_bznx

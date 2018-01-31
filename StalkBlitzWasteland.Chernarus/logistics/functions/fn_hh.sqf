@@ -1,0 +1,1 @@
+#include "ckbl.sqf"private["_kyaj","_nopy","_aaoo","_rprr","_xmmy"];_kyaj=[_this,0,objNull,[objNull]]call jdly;_nopy=[_this,1,"",[objNull,""]]call jdly;if(typeName _nopy=="OBJECT")then{_nopy=typeof _nopy};_aaoo=_kyaj call b_fnc_we;_rprr=_kyaj call b_fnc_rc;_xmmy=(_nopy call b_fnc_qe)select CONFIG_INDEX_SIZE;(_aaoo+_xmmy)<=_rprr

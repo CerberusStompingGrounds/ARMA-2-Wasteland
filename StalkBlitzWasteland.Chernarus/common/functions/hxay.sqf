@@ -1,0 +1,1 @@
+private["_dmqj","_beok","_tlhl","_olos"];_dmqj=_this;_beok=getPosATL _dmqj;_tlhl=_dmqj getVariable["name",""];_olos=_dmqj getVariable"radius";if(_tlhl=="")then{_tlhl=text((nearestLocations[_beok,["NameCityCapital","nameCity","NameVillage"],500])select 0)};[_tlhl,[_beok select 0,_beok select 1],_olos]

@@ -1,0 +1,1 @@
+_this spawn{private["_brnl","_merr","_zscf","_texk","_iept"];_brnl=[_this,0,[0,0,0],[[]],[2,3]]call jdly;_merr=[_this,1,5,[5]]call jdly;_zscf=[_this,2,objNull,[objNull]]call jdly;_texk=[_this,3,[],[[]]]call jdly;_iept=[_this,4,{},[{}]]call jdly;oxky=[player,_brnl,_merr,_zscf];mupo=nil;publicVariableServer"oxky";waituntil{!isNil"mupo"};[mupo,_texk]call _iept};

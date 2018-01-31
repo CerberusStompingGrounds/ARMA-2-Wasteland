@@ -1,0 +1,1 @@
+private["_muko","_vhiy"];_muko=[_this,0,10,[0]]call jdly;_vhiy="";for"_i"from 1 to _muko do{_vhiy=_vhiy+str(floor random 10)};_vhiy

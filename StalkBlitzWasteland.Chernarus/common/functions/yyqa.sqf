@@ -1,0 +1,1 @@
+private["_ihoo","_vsnb","_pbtl"];_ihoo=[_this,0,"",[""]]call jdly;_vsnb=[_this,1,[0,0,0],[[]],[3,2]]call jdly;_pbtl=[_this,2,random 359,[0]]call jdly;if(count _vsnb==2)then{_vsnb set[2,0]};_ioin=createVehicle[_ihoo,_vsnb,[],0,"CAN_COLLIDE"];[_ioin,_vsnb,_pbtl]call bhhq;_ioin

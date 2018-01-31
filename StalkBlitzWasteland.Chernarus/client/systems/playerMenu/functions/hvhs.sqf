@@ -1,0 +1,1 @@
+private["_vsub","_terf"];_vsub=[_this,0,"",[""]]call jdly;_terf=player getVariable['uqud',[]];_xdhk=_terf find _vsub;if(_xdhk>-1)then{_terf set[_xdhk,-1];_terf=_terf -[-1];player setVariable['uqud',_terf,true]};[]call ynyx;_terf

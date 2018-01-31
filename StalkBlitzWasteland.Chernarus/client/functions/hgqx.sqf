@@ -1,0 +1,1 @@
+private["_guhy"];_guhy=[getPosATL player]call slfp;[[_guhy select 1,getPosATL vehicle player]call ttyi,format['of %1',_guhy select 0]]spawn bis_fnc_infotext;

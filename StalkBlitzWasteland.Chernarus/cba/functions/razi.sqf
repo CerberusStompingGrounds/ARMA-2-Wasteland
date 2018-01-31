@@ -1,0 +1,2 @@
+#include "script_hashes.hpp"
+#include "script_macros_common.hpp"DEFAULT_PARAM(0,_oqdy,[]);DEFAULT_PARAM(1,_rrks,nil);private["_nzqz","_uahq"];_nzqz=[];_uahq=[];_nzqz resize(count _oqdy);_uahq resize(count _oqdy);for"_dzyz"from 0 to((count _oqdy)- 1)do{_nzqz set[_dzyz,(_oqdy select _dzyz)select 0];_uahq set[_dzyz,(_oqdy select _dzyz)select 1]};[TYPE_HASH,_nzqz,_uahq,if(isNil"_rrks")then{nil}else{_rrks}];

@@ -1,0 +1,1 @@
+swog=_this;publicVariable"swog";nil;

@@ -1,0 +1,1 @@
+#include "functions\ckbl.sqf"_ivqa=(uiNamespace getVariable'gearDialog')displayCtrl cartListIDC;zqht set[lbCurSel _ivqa,"REMOVE"];zqht=zqht -["REMOVE"];[_ivqa,zqht]call bzai;[]call svzl;

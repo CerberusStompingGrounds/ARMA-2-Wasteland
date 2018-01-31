@@ -1,0 +1,1 @@
+private["_thmj","_ftpj","_cjig"];_thmj=[_this,0,objNull,[objNull]]call jdly;_ftpj=[_this,1,[],[[]]]call jdly;_cjig=[_this,2,false,[{},false]]call jdly;rwbh=[player,_thmj,typeName _cjig=="CODE"];publicVariableServer"rwbh";if(typeName _cjig=="CODE")then{[_ftpj,_cjig]spawn{lvzo=false;waitUntil{lvzo};(_this select 0)call(_this select 1)}};

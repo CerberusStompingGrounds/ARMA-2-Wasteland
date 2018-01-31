@@ -1,0 +1,1 @@
+#include "functions\ckbl.sqf"private["_ylaq","_rjnr"];_ylaq=lnbCurSelRow LOG_OCcontents_idc;if(_ylaq>-1)then{_rjnr=lnbData[LOG_OCcontents_idc,[_ylaq,0]];[mgua,_rjnr]call b_fnc_zx;closeDialog 0};

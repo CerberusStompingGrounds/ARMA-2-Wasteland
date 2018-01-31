@@ -1,0 +1,1 @@
+private["_tgch","_ject","_bbjz"];_tgch=[_this,0,0,[0]]call jdly;_ject=[_this,1,player,[objNull]]call jdly;_bbjz=_ject getVariable['reen',0];if(typeName _bbjz!="SCALAR")then{_bbjz=parseNumber _bbjz};if(typeName _tgch!="SCALAR")then{_tgch=parseNumber _tgch};_ject setVariable['reen',_bbjz+_tgch,true];(_bbjz+_tgch)

@@ -1,0 +1,1 @@
+private["_nuoj","_pfbs","_tvrx"];_nuoj=[_this,0,"",["",objNull]]call jdly;if(typeName _nuoj=="OBJECT")then{_nuoj=typeOf _nuoj};_pfbs=_nuoj call b_fnc_qe;_tvrx=0;if(count _pfbs>0)then{_tvrx=_pfbs select 1};_tvrx

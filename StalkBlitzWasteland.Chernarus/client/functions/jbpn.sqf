@@ -1,0 +1,1 @@
+private["_xejp","_pqsa"];_xejp=_this;_pqsa=[];{if([[_x]]call mlks=="FRIENDLY")then{_pqsa set[count _pqsa,_x]}}count _xejp;_pqsa

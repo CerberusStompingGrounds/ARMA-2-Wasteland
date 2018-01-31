@@ -1,0 +1,1 @@
+private["_vqhk","_kaxh","_vehicles","_animals","_qzyk","_vorw"];_vqhk=_this select 0;_qzyk=_this select 1;_kaxh=_vqhk nearEntities[["CAManBase","Air","LandVehicle"],_qzyk];_vorw=[];{{if(isPlayer _x)then{_vorw set[count _vorw,_x]}}count crew _x;nil}count _kaxh;_vorw

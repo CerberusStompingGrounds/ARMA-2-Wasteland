@@ -1,0 +1,1 @@
+#include "ckbl.sqf"private["_rlfg","_gqkg","_njzy","_zgca"];_rlfg=[_this,0,objNull,[objNull]]call jdly;_zgca=typeOf _rlfg;_gqkg=_zgca call b_fnc_qe;_njzy=count _gqkg>0&&{_gqkg select CONFIG_INDEX_SIZE>=0}&&(parseNumber netId _rlfg)>1&&!(_rlfg getVariable["LOG_disabled",false]);if(_njzy)then{_njzy=['beforeMove',[_rlfg]]call b_fnc_xp};_njzy

@@ -1,0 +1,2 @@
+disableSerialization;
+#include "ckbl.sqf"private["_mwqr",'_obj',"_zmry","_uhlk"];_mwqr=_this select 0;_bzbs=_this select 1;_zmry=_this select 2;_uhlk=((uiNamespace getVariable'AdminHUD')displayCtrl(adminHUDplayerIconsIDC+_zmry));_uhlk ctrlSetStructuredText parseText _bzbs;_uhlk ctrlSetPosition[_mwqr select 0,_mwqr select 1,safezoneW*0.5,safezoneH*0.5];_uhlk ctrlShow true;_uhlk ctrlCommit 0;nil

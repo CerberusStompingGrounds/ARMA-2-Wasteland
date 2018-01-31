@@ -1,0 +1,1 @@
+private["_uznz"];_uznz=[_this,0,[0,0,0],[[],objNull]]call jdly;if(typeName _uznz=="OBJECT")then{_uznz=getPosATL _uznz};({_uznz distance(_x select 2)<=125}count dcdj)>0

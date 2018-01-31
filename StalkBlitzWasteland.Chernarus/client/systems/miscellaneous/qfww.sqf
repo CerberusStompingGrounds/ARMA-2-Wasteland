@@ -1,0 +1,1 @@
+bwjr=missionNamespace getVariable['bwjr',[]];{_x call ifdp;nil}count bwjr;"bwjr"addPublicVariableEventHandler{(bwjr select(count bwjr)-1)call ifdp};

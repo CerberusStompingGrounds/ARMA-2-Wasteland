@@ -1,0 +1,1 @@
+private["_fcqh","_tibo"];_fcqh=_this select 0;_tibo=objNull;{if(_x call bis_fnc_absspeed>0)exitwith{_tibo=_x}}count(_fcqh nearEntities[["LandVehicle","Air"],5]);_tibo

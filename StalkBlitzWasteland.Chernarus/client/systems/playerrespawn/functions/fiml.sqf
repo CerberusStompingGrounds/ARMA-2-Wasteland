@@ -1,0 +1,1 @@
+private["_idjd"];_idjd=[_this,0,objNull,[objNull]]call jdly;_gtwe=[player,_idjd];eagp=_gtwe;publicVariableServer"eagp";

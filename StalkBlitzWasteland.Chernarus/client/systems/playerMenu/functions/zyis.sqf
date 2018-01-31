@@ -1,0 +1,1 @@
+private["_ebxk","_sopn"];_ebxk=[_this,0,"",[""]]call jdly;_sopn=[_this,1,group player,[grpNull]]call jdly;{if(name _x==_ebxk)exitwith{[_x]join grpNull}}forEach units _sopn;

@@ -1,0 +1,1 @@
+private["_uhjf"];_uhjf=[_this,0,objNull,[objNull]]call jdly;nmkv=[player,format["%1 (%2) slayed %3 (%4)",name player,getPlayerUID player,name _uhjf,getPlayerUID _uhjf]];publicVariableServer"nmkv";_uhjf setDamage 1;_uhjf spawn{while{!isNull _this}do{deleteVehicle _this;sleep 0.5}};

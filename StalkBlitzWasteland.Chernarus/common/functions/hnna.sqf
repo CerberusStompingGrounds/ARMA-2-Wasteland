@@ -1,0 +1,1 @@
+private["_htlz","_lklw",'_current'];_htlz=[_this,0,0,[0]]call jdly;_lklw=[_this,1,player,[objNull]]call jdly;([- _htlz,_lklw]call fugq)

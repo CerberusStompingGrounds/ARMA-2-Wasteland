@@ -1,0 +1,1 @@
+waitUntil{!isNil"xwvy"};waitUntil{simulationEnabled player};while{true}do{sleep(60*3);rwbh=[player,player,false,[]call unqp];publicVariableServer"rwbh"};

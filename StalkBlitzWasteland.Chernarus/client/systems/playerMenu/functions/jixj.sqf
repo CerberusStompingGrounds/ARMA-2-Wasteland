@@ -1,0 +1,1 @@
+private["_jybd","_junk"];_jybd=[_this,0,"",[""]]call jdly;_junk=[_this,1,group player,[grpNull]]call jdly;{if(name _x==_jybd)exitwith{_junk selectLeader _x}}forEach units _junk;

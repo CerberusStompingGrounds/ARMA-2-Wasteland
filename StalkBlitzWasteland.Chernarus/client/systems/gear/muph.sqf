@@ -1,0 +1,1 @@
+bl_gearloadout=+zqht;bl_gearloadout=profileNamespace setVariable['bl_gearloadout',bl_gearloadout];saveProfileNamespace;closeDialog 0;

@@ -1,0 +1,11 @@
+#define paneOneIDC 3000
+#define paneTwoIDC 3001
+#define paneThreeIDC 3002
+#define moneyIDC 3003
+#define buttonOneIDC 3004
+#define adminInfoTextIDC 3005
+#define adminHUDactionTextIDC 5001
+#define adminHUDserverInfoIDC 5002
+#define adminHUDvehicleInfoIDC 5003
+#define adminHUDbannerIDC 5005
+#define adminHUDplayerIconsIDC 5006

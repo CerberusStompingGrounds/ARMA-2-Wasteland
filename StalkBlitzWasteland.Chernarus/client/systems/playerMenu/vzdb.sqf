@@ -1,0 +1,1 @@
+#include "functions\ckbl.sqf"private["_zjzm"];_zjzm=lbCurSel grassSettingIDC;if(_zjzm>=0)then{bl_grass=_zjzm;[bl_grass]call vham};

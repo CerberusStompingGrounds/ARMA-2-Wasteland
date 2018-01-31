@@ -1,0 +1,1 @@
+private["_apgd"];_apgd=[]call zfdd;[_apgd,'deployVehicles',[]]call zbrm;[_apgd,'items',[["General Store",[["Ground Beacon",4000,"Description",{'groundBeacon'call xpip}],]]]]call zbrm;_apgd

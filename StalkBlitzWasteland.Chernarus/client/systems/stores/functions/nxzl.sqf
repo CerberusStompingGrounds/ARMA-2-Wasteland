@@ -1,0 +1,1 @@
+private["_mlnc","_ruot"];_mlnc=uiNamespace getVariable'storeCfg';_ruot=call compile _this;(_mlnc select 1)select(_ruot select 0)select 1 select(_ruot select 1)

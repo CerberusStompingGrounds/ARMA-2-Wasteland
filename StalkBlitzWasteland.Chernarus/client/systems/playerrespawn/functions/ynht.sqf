@@ -1,0 +1,1 @@
+private["_zbnm","_nsbp","_bazt",'_owner'];_zbnm=[_this,0,'air',['']]call jdly;_nsbp=[_this,1,[],[[]],[3]]call jdly;_bazt=[_this,2,0,[0]]call jdly;_nvai=[_this,3,getPlayerUID player,['']]call jdly;_ugxt=[_zbnm,_nvai,_nsbp,_bazt];bhvj=_ugxt;publicVariableServer"bhvj";_ugxt

@@ -1,0 +1,1 @@
+#include "functions\ckbl.sqf"_pprq=uiNamespace getVariable'storeDialog';_hhsg=uiNamespace getVariable'storeCfg';_cxdc=[]call lkhn;closeDialog 0;[_cxdc]call(_hhsg select 4);

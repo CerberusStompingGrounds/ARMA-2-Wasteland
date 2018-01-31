@@ -1,0 +1,1 @@
+private["_veyp","_qzdp","_zthi","_xamd","_xisf"];_veyp=[_this,0,rtkt,[objNull]]call jdly;_qzdp=[_this,1,getDir _veyp,[0]]call jdly;_zthi=boundingBox _veyp;_xamd=boundingCenter _veyp;_xisf=[_xamd select 0,_xamd select 1,_zthi select 1 select 0,_zthi select 1 select 1,_qzdp]call b_fnc_pk;_xisf

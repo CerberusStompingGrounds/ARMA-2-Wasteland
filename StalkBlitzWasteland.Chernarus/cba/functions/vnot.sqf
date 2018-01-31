@@ -1,0 +1,1 @@
+#include "script_macros_common.hpp"PARAMS_2(_iqfu,_kako);private["_ntgz","_aagj"];_ntgz=lxdz getVariable _iqfu;if(isNil"_ntgz")then{lxdz setVariable[_iqfu,[_kako]];_aagj=0}else{_aagj=count _ntgz;PUSH(_ntgz,_kako)};TRACE_2("Added",_iqfu,_aagj);_aagj;

@@ -1,0 +1,1 @@
+private["_pcoa","_phoq","_ktem","_sqtw","_sttc","_raue"];_pcoa=[_this,0,0,[0]]call jdly;_phoq=[_this,1,false,[false]]call jdly;_ktem=['N','NE','E','SE','S','SW','W','NW','N'];_sqtw=['North','Northeast','East','Southeast','South','Southwest','West','Northwest','North'];if(_pcoa<0)then{_pcoa=_pcoa+360};_sttc=round(_pcoa/45);_raue=if(_phoq)then{_sqtw}else{_ktem};_raue select _sttc

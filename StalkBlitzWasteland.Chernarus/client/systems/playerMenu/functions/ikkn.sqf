@@ -1,0 +1,1 @@
+private["_hrys","_hrnk"];_hrys=[_this,0,"",["",[]]]call jdly;if(typeName _hrys=="STRING")then{_hrys=[_hrys]};_hrnk=player getVariable['uqud',[]];_hrnk=_hrnk+_hrys;player setVariable['uqud',_hrnk,true];[]call ynyx;_hrnk

@@ -1,0 +1,1 @@
+#include "ckbl.sqf"disableSerialization;_eqau=[_this,0,(findDisplay playerMenuDialogIDD),[displayNull]]call jdly;_vkuv=(_eqau displayCtrl playerInventoryIDC);lbClear _vkuv;{_mwpp=ojrw select(fzfr find _x)select 1;_vrmz=_vkuv lbAdd _mwpp;_vkuv lbSetData[_vrmz,_x]}forEach(player getVariable['uqud',[]]);

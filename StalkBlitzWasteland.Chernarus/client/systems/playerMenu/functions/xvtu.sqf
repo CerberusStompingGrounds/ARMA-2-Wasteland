@@ -1,0 +1,1 @@
+private["_htzz","_ivjt"];_htzz=[_this,0,"",[""]]call jdly;_ivjt=[_htzz]call ppgl;['groupCancelInvite',[_ivjt,name player]]call ugyo;jwqf set[jwqf find _htzz,nil];

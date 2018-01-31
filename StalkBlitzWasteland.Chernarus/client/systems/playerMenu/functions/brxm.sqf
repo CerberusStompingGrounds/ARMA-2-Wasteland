@@ -1,0 +1,1 @@
+private["_jqah","_weja"];_jqah=[_this,0,"",[""]]call jdly;_weja=[_jqah]call ppgl;['rejectInvite',[_weja,name player]]call ugyo;dcwi set[dcwi find _jqah,nil];

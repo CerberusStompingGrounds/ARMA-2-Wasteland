@@ -1,0 +1,1 @@
+private["_aysd","_bima"];_aysd=[_this,0,'',['']]call jdly;_bima=[_this,1,'',['']]call jdly;{if(_x select 0==_aysd)exitwith{[_x select 1,_bima]call b_fnc_zk}}count lwap;

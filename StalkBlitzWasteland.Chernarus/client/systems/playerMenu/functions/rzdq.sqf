@@ -1,0 +1,1 @@
+private["_tibi","_kbgt","_jinw"];_tibi=[_this,0,"",[""]]call jdly;_kbgt=[_tibi]call ppgl;_jinw=grpNull;{if(_kbgt in units _x)exitwith{_jinw=_x}}forEach allGroups;{if(!isNil"_x")then{_x call sbxl}}forEach dcwi;dcwi=[];[player]join _jinw;_jinw

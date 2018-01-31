@@ -1,0 +1,1 @@
+private["_hkoj","_upit"];_hkoj=vehicle player;_upit=viewDistance;switch true do{case(_hkoj isKindOf"Man"):{_upit=bl_footviewdistance};case(_hkoj isKindOf"LandVehicle"):{_upit=bl_carviewdistance};case(_hkoj isKindOf"Air"):{_upit=bl_airviewdistance}};setViewDistance _upit;_upit

@@ -1,0 +1,10 @@
+scriptName"Functions\init.sqf";textLogFormat["PRELOAD_ Functions\init.sqf %1",_this];if(!isServer)then{textLogFormat["MPF_Client FUNCTIONS init.sqf ..."]};private["_eqbs"];_eqbs=(count _this)>0;if(!isNil"bis_fnc_init"&&!_eqbs)exitwith{textLogFormat["PRELOAD_ Functions already running."]};textLogFormat["Log: [Functions] Init script executed at %1",time];for"_zwll"from 0 to 2 do{_auti=[configfile,campaignconfigfile,missionconfigfile]select _zwll;_epiv=["ca\modules\functions","functions","functions"]select _zwll;_vvqi=(_auti>>"cfgfunctions");for"_tqmr"from 0 to(count _vvqi - 1)do{_msme=_vvqi select _tqmr;if(isclass _msme)then{_muye=configname _msme;_emof=gettext(_msme>>"file");for"_jyom"from 0 to(count _msme - 1)do{_xmqz=_msme select _jyom;if(isclass _xmqz)then{_swyw=configname _xmqz;_ecnr=gettext(_xmqz>>"file");for"_ipxq"from 0 to(count _xmqz - 1)do{_edqw=_xmqz select _ipxq;if(isclass _edqw)then{_qtmy=configname _edqw;_rbrt=gettext(_edqw>>"file");_sqti=if(_rbrt!="")then{_rbrt}else{if(_ecnr!="")then{_ecnr+"\fn_"+_qtmy+".sqf"}else{if(_emof!="")then{_emof+"\fn_"+_qtmy+".sqf"}else{""}}};_sqti=if(_sqti=="")then{_epiv+"\"+_swyw+"\fn_"+_qtmy+".sqf"}else{_sqti};call compile format["
+								if (isnil '%2_fnc_%3' || %4) then {
+									%2_fnc_%3 = {
+										if (!%4) then {debuglog ('Log: [Functions] %2_fnc_%3 loaded (%1)')};
+										%2_fnc_%3 = compile preprocessFileLineNumbers '%1';
+										_this call %2_fnc_%3;
+									};
+									%2_fnc_%3_path = '%1';
+								};
+							",_sqti,_muye,_qtmy,_eqbs]}}}}}}};private["_wgos","_yyzk"];_wgos=(_this select 0)setPos(position(_this select 0));if(isnil"_wgos")then{_wgos=false};_yyzk=(_this select 0)playMove"";if(isnil"_yyzk")then{_yyzk=false};(_wgos||_yyzk)call(compile(preprocessFileLineNumbers"ca\modules\functions\misc\fn_initCounter.sqf"));waitUntil{!isNil"BIS_MPF_InitDone"};bis_fnc_init=true;textLogFormat["Log: [Functions] Init script terminated at %1",time];

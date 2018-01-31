@@ -1,0 +1,1 @@
+if('allowThermals'call bdra)exitwith{};_onvk=vehicle player;_mgej=cameraView;while{true}do{waitUntil{_onvk!=vehicle player||(_mgej!=cameraView&&cameraView=="GUNNER")};_onvk=vehicle player;_onvk disableTIEquipment true};

@@ -1,0 +1,2 @@
+#include "script_hashes.hpp"
+#include "script_macros_common.hpp"PARAMS_2(_rgex,_key);private["_hweg"];_hweg=_rgex select HASH_DEFAULT_VALUE;[_rgex,_key,if(isNil"_hweg")then{nil}else{_hweg}]call zbrm;_rgex;

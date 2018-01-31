@@ -1,0 +1,1 @@
+['medkit','Medkit','medkitModel'call bdra,[],{private['_vehs','_veh'];if(damage player>0)then{[5,"Healing %1",[],{player setDamage 0;['medkit']call tfyi}]call byng}else{hint'You are not hurt.'}}]call xwjs;

@@ -1,0 +1,1 @@
+opml=missionNamespace getVariable['opml',[]];private["_apgs"];_apgs={{(_x+[false])call wxry;nil}count opml};[]call _apgs;"opml"addPublicVariableEventHandler _apgs;

@@ -1,0 +1,1 @@
+private["_pgxi"];_pgxi=+_this;{if!(_x call xyzy)then{_pgxi set[_foreachindex,"REMOVE"]}}forEach _pgxi;(_pgxi -["REMOVE"])

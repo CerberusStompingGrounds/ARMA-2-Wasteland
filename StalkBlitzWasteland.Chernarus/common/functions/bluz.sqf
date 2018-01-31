@@ -1,0 +1,1 @@
+_newj=[_this,"\"]call dqhw;_newj resize(count _newj)- 1;_newj=[_newj,"\"]call ybyo;if(([_newj,":"]call viht)==-1)then{_newj="\"+_newj};_newj

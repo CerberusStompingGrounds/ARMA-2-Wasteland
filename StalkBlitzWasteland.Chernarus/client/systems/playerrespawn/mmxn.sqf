@@ -1,0 +1,1 @@
+#include "functions\ckbl.sqf"disableSerialization;_nmnk=lnbCurSelRow respawnListPresetsIDC;if(_nmnk==-1)exitwith{};_pawn=lnbData[respawnListPresetsIDC,[_nmnk,1]];_duaq=(_pawn call rktv)call izmu;bl_gearloadout=_duaq;profileNamespace setVariable['bl_gearloadout',bl_gearloadout];saveProfileNamespace;[]call wtqp;[]call idyw;

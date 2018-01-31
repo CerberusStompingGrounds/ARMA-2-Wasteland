@@ -1,0 +1,1 @@
+#include "functions\ckbl.sqf"_elzc=_this;if(count oilv>=_elzc)then{_xydv=oilv select _elzc;(_xydv select 1)call(_xydv select 2)};[]call qvsj;

@@ -1,0 +1,1 @@
+#include "functions\ckbl.sqf"((uiNamespace getVariable'saveAsPresetDialog')displayCtrl savePresetIDC)ctrlEnable true;

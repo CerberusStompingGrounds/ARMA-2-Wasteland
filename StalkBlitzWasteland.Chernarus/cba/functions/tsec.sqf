@@ -1,0 +1,2 @@
+#include "script_hashes.hpp"
+#include "script_macros_common.hpp"private["_cgyu","_pjdz","_new"];PARAMS_2(_xknr,_key);_cgyu=(_xknr select HASH_KEYS)find _key;if(_cgyu>=0)then{(_xknr select HASH_VALUES)select _cgyu}else{_pjdz=_xknr select HASH_DEFAULT_VALUE;if(isNil"_pjdz")then{nil}else{if(typeName _pjdz=="ARRAY")then{_pjdz=+_pjdz};_pjdz}};

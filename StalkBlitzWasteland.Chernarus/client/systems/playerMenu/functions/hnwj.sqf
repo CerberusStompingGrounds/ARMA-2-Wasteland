@@ -1,0 +1,1 @@
+private["_zkom","_prjd","_kqkv"];_zkom=[_this,0,"",[""]]call jdly;_prjd=[_this,1,playableUnits,[[]]]call jdly;_kqkv=objNull;{if(name _x==_zkom)exitwith{_kqkv=_x}}forEach _prjd;_kqkv

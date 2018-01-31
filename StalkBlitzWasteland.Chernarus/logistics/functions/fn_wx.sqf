@@ -1,0 +1,1 @@
+private["_wlov","_lkeb","_nmtm"];_wlov=[_this,0,'',['']]call jdly;_lkeb=[_this,1,{},[{}]]call jdly;nfnt=missionNamespace getVariable['nfnt',[]];_nmtm=count nfnt;nfnt set[_nmtm,[_wlov,_lkeb]];_nmtm

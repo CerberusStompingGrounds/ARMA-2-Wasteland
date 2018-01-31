@@ -1,0 +1,1 @@
+if(isNil{_this select 0}||isNil{_this select 1})then{isNil{_this select 0}&&isNil{_this select 1}}else{if(typeName(_this select 0)=="ARRAY"&&typeName(_this select 1)=="ARRAY")then{(str(_this select 0))==(str(_this select 1))}else{switch(_this select 0)do{case(_this select 1):{true};default{false}}}};

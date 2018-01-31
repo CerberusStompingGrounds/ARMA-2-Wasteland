@@ -1,0 +1,1 @@
+#include "functions\ckbl.sqf"_mnyk=[]call jqgt;_ovec=_mnyk select 1;if(khyw)then{[player]call tvsl};if(_this=='ground')then{player setPosATL _ovec}else{_ovec set[2,'haloSpawnHeight'call bdra];[player,_ovec,0]call ffql};{player reveal _x}count(_ovec nearEntities[['Air','LandVehicle'],100]);[]call rmks;closeDialog respawnDialogIDD;

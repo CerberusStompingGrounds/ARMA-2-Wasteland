@@ -1,0 +1,1 @@
+#include "script_macros_common.hpp"PARAMS_1(_dqtj);DEFAULT_PARAM(1,_ghpg,nil);private"_sysi";_sysi=puyn getVariable _dqtj;if(!isNil"_sysi")then{{if(!isNil"_x")then{if(isNil"_ghpg")then{call _x}else{_ghpg call _x}}}forEach _sysi};nil;

@@ -1,0 +1,1 @@
+private["_lfih","_aprh"];_lfih=(_this select 0)ctrlMapScreenToWorld[_this select 1,_this select 2];_aprh=_lfih nearEntities[['Man','Air','LandVehicle'],5];if(count _aprh>0)then{oask=_aprh select 0}else{oask=objNull};

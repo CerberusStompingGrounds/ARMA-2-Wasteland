@@ -1,0 +1,1 @@
+#include "functions\ckbl.sqf"_scaz=(uiNamespace getVariable'gearDialog')displayCtrl itemsListIDC;_grpt=_scaz lbData(lbCurSel _scaz);_grpt=call compile _grpt;_grpt call ppsd;

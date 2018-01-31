@@ -1,0 +1,1 @@
+private["_wlqi","_qmzc","_xkgr","_dady"];_wlqi=[_this,0,5,[0]]call jdly;_qmzc=eyePos player;_xkgr=[_qmzc,_wlqi,getDir player]call bis_fnc_relpos;_dady=(([positionCameraToWorld[0,0,0],positionCameraToWorld[0,0,1]]call bis_fnc_vectorfromxtoy)call bis_fnc_unitvector)select 2;_xkgr set[2,_dady*_wlqi+(_qmzc select 2)];lineIntersectsWith[_qmzc,_xkgr]

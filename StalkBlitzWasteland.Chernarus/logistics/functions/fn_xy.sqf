@@ -1,0 +1,1 @@
+private["_gkbh"];_gkbh=[_this,0,objNull,[objNull]]call jdly;_gkbh setVectorUp([(surfaceNormal(getPosATL _gkbh)),(getDir player)]call bis_fnc_rotatevector2d);

@@ -1,0 +1,1 @@
+#include "ckbl.sqf"disableSerialization;private["_yfls","_ydvd","_eijn","_lvwy","_vkow"];_yfls=uiNamespace getVariable'storeDialog';_ydvd=_yfls displayCtrl cartIDC;_eijn=[];for"_pmhp"from 0 to((lnbSize cartIDC)select 0)-1 do{_lvwy=_ydvd lnbData[_pmhp,0];_vkow=parseNumber(_ydvd lnbText[_pmhp,1]);for"_x"from 0 to _vkow -1 do{_eijn set[count _eijn,_lvwy call kchk]}};_eijn

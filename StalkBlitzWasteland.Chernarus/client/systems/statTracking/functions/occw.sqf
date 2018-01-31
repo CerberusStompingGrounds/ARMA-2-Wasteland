@@ -1,0 +1,1 @@
+private["_qtgf","_beed"];_qtgf=[_this,0,1,[0]]call jdly;_beed=([[]call ithj,'ranks']call uvzk)select _qtgf select 1;if(_beed!="")then{ggwd+_beed}else{""};

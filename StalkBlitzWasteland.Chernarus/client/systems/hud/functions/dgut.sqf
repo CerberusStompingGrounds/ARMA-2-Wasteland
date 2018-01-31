@@ -1,0 +1,2 @@
+disableSerialization;
+#include "ckbl.sqf"private["_qvqu",'_obj',"_itgl","_pqte"];_qvqu=_this select 0;_qutw=_this select 1;_itgl=_this select 2;_pqte=((uiNamespace getVariable'HUD')displayCtrl(HUDplayerIconsIDC+_itgl));_pqte ctrlSetStructuredText parseText _qutw;_pqte ctrlSetPosition[_qvqu select 0,_qvqu select 1,safezoneW*0.5,safezoneH*0.5];_pqte ctrlShow true;_pqte ctrlCommit 0;nil

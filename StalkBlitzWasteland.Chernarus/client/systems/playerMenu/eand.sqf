@@ -1,0 +1,1 @@
+#include "functions\ckbl.sqf"private["_ffwt"];_ffwt=lbCurSel enableEnvironmentIDC;if(_ffwt>=0)then{bl_enableenv=_ffwt;[bl_enableenv]call bbyy};

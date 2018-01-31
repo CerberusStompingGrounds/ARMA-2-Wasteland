@@ -1,0 +1,1 @@
+#include "functions\ckbl.sqf"_tdhs=(uiNamespace getVariable'gearDialog')displayCtrl cartListIDC;_jkfs=_tdhs lnbData[lnbCurSelRow _tdhs,0];_jkfs=call compile _jkfs;{if([_x,_jkfs]call pqnb)exitwith{seyj set[_foreachindex,"REMOVE"]};nil}forEach seyj;seyj=seyj -["REMOVE"];[]call hpjj;[]call ejcc;

@@ -1,0 +1,1 @@
+private["_frys","_galj","_contents","_obj","_object","_mags","_weapons","_items","_i"];_frys=[_this,0,objNull,[objNull]]call jdly;_galj=[_this,1,"",[""]]call jdly;brpy=[player,_frys,_galj];publicVariableServer"brpy";[_frys]spawn{daqi=objNull;waituntil{!isNull daqi};daqi call b_fnc_ha;['unloadedItem',[_this select 0,daqi]]call b_fnc_xp};

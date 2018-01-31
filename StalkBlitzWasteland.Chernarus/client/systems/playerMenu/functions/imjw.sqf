@@ -1,0 +1,1 @@
+private["_jenr"];_jenr=[_this,0,-1,[0]]call jdly;ojrw set[_jenr,nil];fzfr set[_jenr,nil];

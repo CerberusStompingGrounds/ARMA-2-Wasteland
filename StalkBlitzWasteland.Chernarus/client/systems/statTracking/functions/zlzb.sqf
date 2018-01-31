@@ -1,0 +1,1 @@
+#include "ckbl.sqf"private["_tvhq","_viql"];_tvhq=[_this,0,displayNull,[displayNull]]call jdly;_viql=[_this,1,0,[0]]call jdly;[_tvhq,_viql,false]call sycv;

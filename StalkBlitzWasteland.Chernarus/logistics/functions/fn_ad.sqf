@@ -1,0 +1,1 @@
+private["_xmji","_jdnd"];_jdnd=[_this,0,-1,[0]]call jdly;_xmji=[];if(!isNil{nfnt select _jdnd})then{_xmji=nfnt select _jdnd;nfnt set[_jdnd,nil]};_xmji

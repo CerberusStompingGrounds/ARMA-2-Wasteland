@@ -1,0 +1,1 @@
+private["_xjtb"];_xjtb=[_this,0,-100000,[0]]call jdly;if(rating player>0)then{player addRating -(rating player)}else{player addRating abs(rating player)};if(_xjtb!=0)then{player addRating _xjtb};_xjtb

@@ -1,0 +1,1 @@
+private["_zszq","_grcz","_sphj"];_zszq=_this select 0;_grcz=100000;_sphj=[];{if(_zszq distance _x<_grcz)then{_sphj=_x;_grcz=_zszq distance _x}}count entities"LocationLogicCity";(_sphj call svrj)

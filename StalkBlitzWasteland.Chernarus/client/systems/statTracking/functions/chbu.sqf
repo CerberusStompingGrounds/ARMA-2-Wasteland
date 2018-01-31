@@ -1,0 +1,1 @@
+private["_opox"];_opox=[_this,0,"",[""]]call jdly;systemChat _opox;

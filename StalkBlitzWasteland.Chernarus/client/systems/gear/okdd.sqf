@@ -1,0 +1,1 @@
+#include "functions\ckbl.sqf"disableSerialization;_nedp=(uiNamespace getVariable'gearDialog')displayCtrl itemsListIDC;_htzx=_nedp lbText lbCurSel _nedp;[bl_gearpresets,_htzx]call kvbx;profileNamespace setVariable['bl_gearpresets',bl_gearpresets];saveProfileNamespace;['presets']call compile preprocessFileLineNumbers'client\systems\gear\tuqi.sqf'

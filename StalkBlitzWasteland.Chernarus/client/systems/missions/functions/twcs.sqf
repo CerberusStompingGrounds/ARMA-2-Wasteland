@@ -1,0 +1,1 @@
+private["_gxva"];_gxva=[_this,0,"",[""]]call jdly;if(hasInterface)then{igvg=missionNamespace getVariable['igvg',[[],objNull]call zfdd];deleteVehicle([igvg,_gxva]call uvzk)};

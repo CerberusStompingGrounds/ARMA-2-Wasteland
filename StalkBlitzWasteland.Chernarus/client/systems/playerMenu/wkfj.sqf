@@ -1,0 +1,1 @@
+#include "functions\ckbl.sqf"private["_ealf","_fprz"];_fprz=round sliderPosition(_this select 1);_ealf=switch(_this select 0)do{case'foot':{bl_footviewdistance=_fprz;footViewDistanceValueIDC};case'car':{bl_carviewdistance=_fprz;carViewDistanceValueIDC};case'air':{bl_airviewdistance=_fprz;airViewDistanceValueIDC}};[]call csuq;ctrlSetText[_ealf,format['%1m',_fprz]];

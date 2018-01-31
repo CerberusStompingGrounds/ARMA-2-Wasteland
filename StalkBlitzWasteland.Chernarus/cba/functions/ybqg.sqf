@@ -1,0 +1,1 @@
+#include "script_macros_common.hpp"PARAMS_1(_xxst);DEFAULT_PARAM(1,_hdqa,"");private["_utum","_afqp"];if(count _xxst>0)then{_afqp=_xxst select 0;_utum=if(IS_STRING(_afqp))then{_afqp}else{str _afqp};for"_wwxc"from 1 to((count _xxst)- 1)do{_afqp=_xxst select _wwxc;_afqp=if(IS_STRING(_afqp))then{_afqp}else{str _afqp};_utum=_utum+_hdqa+_afqp}}else{_utum=""};_utum;

@@ -1,0 +1,1 @@
+{if(_foreachindex==_this)then{if(khyw)then{[player]call tvsl};(_x select 0)call(_x select 1);[]call rmks}}forEach vzpf;

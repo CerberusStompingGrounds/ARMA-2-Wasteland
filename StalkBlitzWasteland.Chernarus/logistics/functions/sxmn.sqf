@@ -1,0 +1,1 @@
+private["_wxfq"];_wxfq=wize select(_this select 3);(_wxfq select 2)call(_wxfq select 1);nil

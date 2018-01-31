@@ -1,0 +1,1 @@
+#include "script_macros_common.hpp"PARAMS_3(_ogte,_oshf,_jtau);private"_value";if(not isNil"_jtau")then{_value=_jtau};if(not isNil"_ogte")then{if((typeName _ogte)=="ARRAY")then{if((count _ogte)>(_oshf))then{if(not isNil{_ogte select(_oshf)})then{_value=_ogte select(_oshf)}}}};if(isNil"_value")then{nil}else{_value};

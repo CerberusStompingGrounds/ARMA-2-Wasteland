@@ -1,0 +1,1 @@
+#include "functions\ckbl.sqf"private["_fidg","_iosn","_kned","_oiwf"];_fidg=_this;_iosn=lbData[playerInventoryIDC,lbCurSel playerInventoryIDC];_kned=ojrw select(fzfr find _iosn);_oiwf=_kned select 3;if(_fidg=='use')then{_oiwf call(_kned select 4)}else{_kned call czyw};

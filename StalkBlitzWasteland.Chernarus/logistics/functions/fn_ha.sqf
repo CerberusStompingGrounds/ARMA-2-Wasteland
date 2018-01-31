@@ -1,0 +1,1 @@
+private["_hjrn"];_hjrn=[_this,0,objNull,[objNull]]call jdly;if([_hjrn]call b_fnc_zw)then{if(!isNil"rtkt")then{detach rtkt};rtkt=_hjrn;lozm=2.5;hpzy=0;irpz=0;imgu=0;gvlt=[player,rtkt];publicVariableServer"gvlt";[]spawn{waitUntil{local rtkt};[]call b_fnc_kj;[]call b_fnc_wq};[]spawn{while{!isNull rtkt}do{if(vehicle player!=player)then{[]call b_fnc_ax};sleep 0.5}}};

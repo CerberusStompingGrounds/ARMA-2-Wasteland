@@ -1,0 +1,1 @@
+private["_fbvp","_imnk"];_fbvp=[_this,0,-1,[0]]call jdly;_imnk=ucmb select _fbvp;player removeAction _imnk;wize set[_fbvp,nil];ucmb set[_fbvp,nil];nil

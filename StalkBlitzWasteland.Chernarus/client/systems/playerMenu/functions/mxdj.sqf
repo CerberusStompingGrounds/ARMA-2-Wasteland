@@ -1,0 +1,1 @@
+private["_dzlr"];_dzlr=[_this,0,1,[0]]call jdly;enableEnvironment(switch _dzlr do{case 0:{false};case 1:{true}});

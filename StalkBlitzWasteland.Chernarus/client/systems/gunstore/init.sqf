@@ -1,0 +1,1 @@
+[{format['Sell Crate [$%1]',[rtkt]call acog]},{rtkt isKindOf"Reammobox"&&{({(_this select 0)==(_x select 1)&&(_x select 0)=='gunStore'}count yuec)>0}},{_oved=rtkt;[]call b_fnc_ax;([_oved]call acog)call fugq;deleteVehicle _oved}]call hzak;

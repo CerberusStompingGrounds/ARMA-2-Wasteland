@@ -1,0 +1,1 @@
+#include "functions\ckbl.sqf"_xges=(uiNamespace getVariable'gearDialog')displayCtrl ammoListIDC;_dlbe=_xges lbData(lbCurSel _xges);_dlbe=call compile _dlbe;_dlbe call gpmx;

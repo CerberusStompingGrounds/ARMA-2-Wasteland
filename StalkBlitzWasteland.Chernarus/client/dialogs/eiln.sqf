@@ -1,0 +1,1 @@
+((uiNamespace getVariable'abortConfirm')displayCtrl 1001)ctrlEnable false;[]spawn{rwbh=[player,player,true,[]call unqp];publicVariableServer"rwbh";lvzo=false;waitUntil{lvzo};((uiNamespace getVariable'abortConfirm')displayCtrl 1001)ctrlEnable true};

@@ -1,0 +1,2 @@
+#include "script_hashes.hpp"
+#include "script_macros_common.hpp"PARAMS_2(_eium,_htdu);private["_umvx","_iqly"];_umvx=_eium select HASH_KEYS;_iqly=_eium select HASH_VALUES;for"_iagt"from 0 to((count _umvx)- 1)do{private["_key","_value"];_key=_umvx select _iagt;_value=_iqly select _iagt;call _htdu};nil;

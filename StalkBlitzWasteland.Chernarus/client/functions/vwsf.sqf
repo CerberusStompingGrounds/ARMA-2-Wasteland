@@ -1,0 +1,1 @@
+_tleo=[_this,0,[0,0,0],[[]],[2,3]]call jdly;_cxwx=[_this,1,[0,0,0],[[]],[2,3]]call jdly;_sxpw=[([_tleo,_cxwx]call bis_fnc_dirto),true]call ioki;_rkbl=round(_tleo distance _cxwx);format['%1m %2',_rkbl,_sxpw]

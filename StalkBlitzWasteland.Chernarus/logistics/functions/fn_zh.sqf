@@ -1,0 +1,1 @@
+private["_pwtc","_wrvm","_edqq","_hute","_giwn","_jvfw","_exem"];_pwtc=[_this,0,0,[0]]call jdly;_wrvm=[_this,1,0,[0]]call jdly;_edqq=[_this,2,0,[0]]call jdly;_hute=_pwtc*cos(_edqq);_giwn=_hute*sin(_wrvm);_exem=_hute*cos(_wrvm);_jvfw=_pwtc*sin(_edqq);[_giwn,_exem,_jvfw]

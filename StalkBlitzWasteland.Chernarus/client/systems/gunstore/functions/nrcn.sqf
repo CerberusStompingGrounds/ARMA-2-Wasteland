@@ -1,0 +1,1 @@
+#include "ckbl.sqf"seyj=missionNamespace getVariable['seyj',[]];seyj set[count seyj,_this];[]call ejcc;[]call hpjj;

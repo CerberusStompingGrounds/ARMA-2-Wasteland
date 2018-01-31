@@ -1,0 +1,1 @@
+private["_dhgi","_ilnc","_xtvl"];_dhgi=[_this,0,displayNull,[displayNull]]call jdly;_ilnc=[_this,1,0,[0]]call jdly;_xtvl=[]call epuy;_swha=10*_ilnc;for"_tibz"from _swha to _swha+9 do{if(_tibz<count _xtvl)then{[_dhgi,_tibz,_tibz+1,_xtvl select _tibz]call eedi}else{[_dhgi,_tibz]call eedi}};
