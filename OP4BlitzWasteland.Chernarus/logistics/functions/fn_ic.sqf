@@ -1,0 +1,1 @@
+#include "vbvk.sqf"private["_dyrz","_yloo","_fflg"];_dyrz=[_this,0,"",["",objNull]]call clht;if(typeName _dyrz=="OBJECT")then{_dyrz=typeOf _dyrz};_yloo=_dyrz call u_fnc_db;_fflg=-1;if(count _yloo>0)then{_fflg=_yloo select CONFIG_INDEX_SIZE};_fflg

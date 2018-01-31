@@ -1,0 +1,1 @@
+qgds=missionNamespace getVariable['qgds',[]];private["_qktd"];_qktd={{(_x+[false])call yael;nil}count qgds};[]call _qktd;"qgds"addPublicVariableEventHandler _qktd;

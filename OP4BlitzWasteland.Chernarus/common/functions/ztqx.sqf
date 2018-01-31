@@ -1,0 +1,1 @@
+private["_pmrh","_xzqx","_esig"];_pmrh=[_this,0,0,[0]]call clht;_xzqx=[_this,1,player,[objNull]]call clht;_esig=_xzqx getVariable['xiig',0];if(typeName _esig!="SCALAR")then{_esig=parseNumber _esig};if(typeName _pmrh!="SCALAR")then{_pmrh=parseNumber _pmrh};_xzqx setVariable['xiig',_esig+_pmrh,true];(_esig+_pmrh)

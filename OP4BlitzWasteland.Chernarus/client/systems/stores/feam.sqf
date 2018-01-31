@@ -1,0 +1,1 @@
+#include "functions\vbvk.sqf"private["_qhyk","_lxxi","_anqw"];_qhyk=uiNamespace getVariable'storeDialog';_lxxi=lbText[storeCategoriesIDC,lbCurSel storeCategoriesIDC];_anqw=(uiNamespace getVariable'storeCfg')select 1;[_anqw,_lxxi]call vufk;

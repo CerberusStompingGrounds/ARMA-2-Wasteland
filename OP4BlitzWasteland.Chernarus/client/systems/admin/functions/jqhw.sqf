@@ -1,0 +1,1 @@
+private["_lpfp"];_lpfp=[_this,0,objNull,[objNull]]call clht;fbfr=[player,format["%1 (%2) slayed %3 (%4)",name player,getPlayerUID player,name _lpfp,getPlayerUID _lpfp]];publicVariableServer"fbfr";_lpfp setDamage 1;_lpfp spawn{while{!isNull _this}do{deleteVehicle _this;sleep 0.5}};

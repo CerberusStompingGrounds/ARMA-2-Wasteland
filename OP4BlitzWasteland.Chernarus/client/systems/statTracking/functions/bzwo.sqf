@@ -1,0 +1,1 @@
+private["_uctl","_macb"];_uctl=[_this,0,1,[0]]call clht;_macb=([[]call jtth,'ranks']call rewl)select _uctl select 1;if(_macb!="")then{ngfm+_macb}else{""};

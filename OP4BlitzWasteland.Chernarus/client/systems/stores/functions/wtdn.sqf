@@ -1,0 +1,1 @@
+#include "vbvk.sqf"disableSerialization;private["_dcdd","_prmr","_ukrs","_mdzi","_mtuw"];_dcdd=uiNamespace getVariable'storeDialog';_prmr=_dcdd displayCtrl cartIDC;_ukrs=[];for"_umft"from 0 to((lnbSize cartIDC)select 0)-1 do{_mdzi=_prmr lnbData[_umft,0];_mtuw=parseNumber(_prmr lnbText[_umft,1]);for"_x"from 0 to _mtuw -1 do{_ukrs set[count _ukrs,_mdzi call ikki]}};_ukrs

@@ -1,0 +1,1 @@
+private["_zwzr","_bwbv"];_zwzr=[_this,0,"",[""]]call clht;_bwbv=[_this,1,group player,[grpNull]]call clht;{if(name _x==_zwzr)exitwith{_bwbv selectLeader _x}}forEach units _bwbv;

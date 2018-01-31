@@ -1,0 +1,1 @@
+private["_fxmm"];_fxmm=[]call dssf;[_fxmm,'deployVehicles',[]]call ykms;[_fxmm,'items',[["General Store",[["Ground Beacon",4000,"Description",{'groundBeacon'call vzts}],]]]]call ykms;_fxmm

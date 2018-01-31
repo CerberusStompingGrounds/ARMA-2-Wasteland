@@ -1,0 +1,1 @@
+[{format['Sell Crate [$%1]',[fasj]call smik]},{fasj isKindOf"Reammobox"&&{({(_this select 0)==(_x select 1)&&(_x select 0)=='gunStore'}count eoqi)>0}},{_zfxq=fasj;[]call u_fnc_ot;([_zfxq]call smik)call vzid;deleteVehicle _zfxq}]call ewwn;

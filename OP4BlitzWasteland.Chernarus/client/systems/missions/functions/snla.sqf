@@ -1,0 +1,1 @@
+{_value=(bl_pvar_currenttasks select 2 select _foreachindex);if(typeName _value=="STRING"&&{_value=="UNDEF"})then{_value=nil};missionNamespace setVariable[_x,_value]}forEach(bl_pvar_currenttasks select 1);

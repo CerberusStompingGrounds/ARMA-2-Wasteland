@@ -1,0 +1,1 @@
+#include "script_macros_common.hpp"PARAMS_1(_uccf);DEFAULT_PARAM(1,_wmtj,nil);private"_krzy";_krzy=ddnm getVariable _uccf;if(!isNil"_krzy")then{{if(!isNil"_x")then{if(isNil"_wmtj")then{call _x}else{_wmtj call _x}}}forEach _krzy};nil;

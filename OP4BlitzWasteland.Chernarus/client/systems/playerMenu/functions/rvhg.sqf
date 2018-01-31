@@ -1,0 +1,1 @@
+private["_yqvi"];_yqvi=[_this,0,-1,[0]]call clht;qgbi set[_yqvi,nil];unus set[_yqvi,nil];

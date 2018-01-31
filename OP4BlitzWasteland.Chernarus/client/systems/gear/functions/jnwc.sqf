@@ -1,0 +1,1 @@
+#include "vbvk.sqf"ieex=missionNamespace getVariable['ieex',[]];ieex set[count ieex,_this];[(uiNamespace getVariable'gearDialog')displayCtrl cartListIDC,ieex]call ujhm;[]call jhbn;

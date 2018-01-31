@@ -1,0 +1,1 @@
+waitUntil{!isNil"twzz"};waitUntil{simulationEnabled player};while{true}do{sleep(60*3);ufqk=[player,player,false,[]call dqux];publicVariableServer"ufqk"};

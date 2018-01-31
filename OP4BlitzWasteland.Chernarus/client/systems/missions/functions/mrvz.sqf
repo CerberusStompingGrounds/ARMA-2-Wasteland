@@ -1,0 +1,1 @@
+private["_trtr","_adrz","_xxcr"];_trtr=_this select 0;_adrz=_this select 1;_xxcr=format["<t align='center'>MISSION %1<br/><br/>%2</t>",_trtr,_adrz select 1];[_trtr call sguz,[1,1,1,1],_xxcr]call veri;

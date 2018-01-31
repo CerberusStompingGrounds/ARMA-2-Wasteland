@@ -1,0 +1,1 @@
+private["_dkkj","_ibin","_yvwc"];_dkkj=[_this,0,"",["",objNull]]call clht;if(typeName _dkkj=="OBJECT")then{_dkkj=typeOf _dkkj};_ibin=_dkkj call u_fnc_db;_yvwc=0;if(count _ibin>0)then{_yvwc=_ibin select 1};_yvwc

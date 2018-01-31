@@ -1,0 +1,1 @@
+#include "script_macros_common.hpp"PARAMS_1(_hmza);DEFAULT_PARAM(1,_dzxl,"");private["_xxfz","_zntz"];if(count _hmza>0)then{_zntz=_hmza select 0;_xxfz=if(IS_STRING(_zntz))then{_zntz}else{str _zntz};for"_lkiy"from 1 to((count _hmza)- 1)do{_zntz=_hmza select _lkiy;_zntz=if(IS_STRING(_zntz))then{_zntz}else{str _zntz};_xxfz=_xxfz+_dzxl+_zntz}}else{_xxfz=""};_xxfz;

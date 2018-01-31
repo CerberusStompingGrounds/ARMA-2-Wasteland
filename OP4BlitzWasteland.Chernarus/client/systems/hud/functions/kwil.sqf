@@ -1,0 +1,1 @@
+private["_ntal","_dxad"];_ntal=(_this select 0)ctrlMapScreenToWorld[_this select 1,_this select 2];_dxad=_ntal nearEntities[['Man','Air','LandVehicle'],5];if(count _dxad>0)then{pwdw=_dxad select 0}else{pwdw=objNull};

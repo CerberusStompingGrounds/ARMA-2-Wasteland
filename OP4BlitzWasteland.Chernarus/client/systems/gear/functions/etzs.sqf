@@ -1,0 +1,1 @@
+private["_ujed"];_ujed=0;{_ujed=_ujed+(_x call vcxu);nil}count _this;_ujed

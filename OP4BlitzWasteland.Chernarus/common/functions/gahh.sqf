@@ -1,0 +1,1 @@
+private["_ququ","_qnol","_hvmu"];_ququ=[_this,0,"",[""]]call clht;_qnol=[_this,1,[0,0,0],[[]],[3,2]]call clht;_hvmu=[_this,2,random 359,[0]]call clht;if(count _qnol==2)then{_qnol set[2,0]};_czxw=createVehicle[_ququ,_qnol,[],0,"CAN_COLLIDE"];[_czxw,_qnol,_hvmu]call arhd;_czxw

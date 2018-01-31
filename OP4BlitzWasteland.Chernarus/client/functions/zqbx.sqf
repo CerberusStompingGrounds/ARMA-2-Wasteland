@@ -1,0 +1,1 @@
+private["_svjb"];_svjb=[getPosATL player]call kiuw;[[_svjb select 1,getPosATL vehicle player]call knhx,format['of %1',_svjb select 0]]spawn bis_fnc_infotext;

@@ -1,0 +1,1 @@
+private["_cjzd","_tcaw","_scwy"];_cjzd=[_this,0,displayNull,[displayNull]]call clht;_tcaw=[_this,1,0,[0]]call clht;_scwy=[]call uaej;_dkaj=10*_tcaw;for"_fdor"from _dkaj to _dkaj+9 do{if(_fdor<count _scwy)then{[_cjzd,_fdor,_fdor+1,_scwy select _fdor]call qhty}else{[_cjzd,_fdor]call qhty}};

@@ -1,0 +1,1 @@
+#include "vbvk.sqf"psgj=missionNamespace getVariable['psgj',[]];psgj set[count psgj,_this];[]call edfv;[]call slcw;

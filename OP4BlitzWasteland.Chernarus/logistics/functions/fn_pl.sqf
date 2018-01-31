@@ -1,0 +1,1 @@
+private["_jooa","_xrzz"];_jooa=[_this,0,-1,[0]]call clht;_xrzz=arxt select _jooa;player removeAction _xrzz;usvx set[_jooa,nil];arxt set[_jooa,nil];nil

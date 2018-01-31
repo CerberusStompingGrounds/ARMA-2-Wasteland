@@ -1,0 +1,1 @@
+private["_spbi","_wkpy"];_spbi=uiNamespace getVariable'storeCfg';_wkpy=call compile _this;(_spbi select 1)select(_wkpy select 0)select 1 select(_wkpy select 1)

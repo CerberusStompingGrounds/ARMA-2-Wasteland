@@ -1,0 +1,1 @@
+private["_cwqd"];_cwqd=vehicle player;if(_cwqd distance lhd_center<50)then{detach _cwqd;Hint"Launching"};if(_cwqd distance lhd_center>50)then{};if(_cwqd distance lhd_center1<50)then{detach _cwqd;Hint"Launching"};if(_cwqd distance lhd_center1>50)then{};

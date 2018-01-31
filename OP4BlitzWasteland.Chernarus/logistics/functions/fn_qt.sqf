@@ -1,0 +1,1 @@
+(findDisplay 46)displayRemoveEventHandler["KeyDown",rzel];rzel=-1;

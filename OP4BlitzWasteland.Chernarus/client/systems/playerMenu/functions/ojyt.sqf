@@ -1,0 +1,1 @@
+ygty=missionNamespace getVariable['ygty',-1];if(ygty>0)then{closeDialog 0;createDialog"donatorDialog"}else{hint"To access the skin menu its at a admins descrection! visit www.op4squad.com to request we do not charge for this"};

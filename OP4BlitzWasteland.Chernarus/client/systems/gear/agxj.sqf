@@ -1,0 +1,1 @@
+#include "functions\vbvk.sqf"_okrb=(uiNamespace getVariable'gearDialog')displayCtrl ammoListIDC;_zecv=_okrb lbData(lbCurSel _okrb);_zecv=call compile _zecv;_zecv call bngn;

@@ -1,0 +1,1 @@
+[((_this select 0)atan2(_this select 1))]call twal;

@@ -1,0 +1,1 @@
+#include "functions\vbvk.sqf"disableSerialization;_gqcn=(uiNamespace getVariable'gearDialog')displayCtrl itemsListIDC;_lsop=_gqcn lbText lbCurSel _gqcn;[bl_gearpresets,_lsop]call yapx;profileNamespace setVariable['bl_gearpresets',bl_gearpresets];saveProfileNamespace;['presets']call compile preprocessFileLineNumbers'client\systems\gear\yjyf.sqf'

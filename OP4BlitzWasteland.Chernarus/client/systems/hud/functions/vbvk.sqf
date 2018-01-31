@@ -1,0 +1,9 @@
+#define HUDplayerInfoIDC 5001
+#define HUDserverInfoIDC 5002
+#define HUDvehicleInfoIDC 5003
+#define HUDactionTextIDC 5004
+#define HUDbannerIDC 5005
+#define HUDnotificationIDC 5006
+#define HUDnotificationTextIDC 5007
+#define HUDnotificationIconIDC 5008
+#define HUDplayerIconsIDC 5009

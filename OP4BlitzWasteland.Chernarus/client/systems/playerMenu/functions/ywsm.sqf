@@ -1,0 +1,1 @@
+#include "vbvk.sqf"disableSerialization;_kgzo=[_this,0,(findDisplay playerMenuDialogIDD),[displayNull]]call clht;_uleo=(_kgzo displayCtrl playerInventoryIDC);lbClear _uleo;{_ubjz=qgbi select(unus find _x)select 1;_osmp=_uleo lbAdd _ubjz;_uleo lbSetData[_osmp,_x]}forEach(player getVariable['hakf',[]]);

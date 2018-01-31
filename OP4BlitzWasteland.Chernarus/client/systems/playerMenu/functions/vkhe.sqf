@@ -1,0 +1,1 @@
+private["_zwmc","_svup","_mwxu"];_zwmc=[_this,0,"",[""]]call clht;_svup=[_this,1,playableUnits,[[]]]call clht;_mwxu=objNull;{if(name _x==_zwmc)exitwith{_mwxu=_x}}forEach _svup;_mwxu

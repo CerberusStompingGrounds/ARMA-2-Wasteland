@@ -1,0 +1,1 @@
+while{true}do{processInitCommands;sleep 3};

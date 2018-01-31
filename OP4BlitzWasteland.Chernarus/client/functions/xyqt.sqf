@@ -1,0 +1,1 @@
+private["_ixhl"];_ixhl=[_this,0,-100000,[0]]call clht;if(rating player>0)then{player addRating -(rating player)}else{player addRating abs(rating player)};if(_ixhl!=0)then{player addRating _ixhl};_ixhl

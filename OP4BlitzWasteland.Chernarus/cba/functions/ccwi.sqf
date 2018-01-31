@@ -1,0 +1,2 @@
+#include "script_hashes.hpp"
+#include "script_macros_common.hpp"DEFAULT_PARAM(0,_vkon,[]);DEFAULT_PARAM(1,_ptfg,nil);private["_jydc","_erkb"];_jydc=[];_erkb=[];_jydc resize(count _vkon);_erkb resize(count _vkon);for"_stjj"from 0 to((count _vkon)- 1)do{_jydc set[_stjj,(_vkon select _stjj)select 0];_erkb set[_stjj,(_vkon select _stjj)select 1]};[TYPE_HASH,_jydc,_erkb,if(isNil"_ptfg")then{nil}else{_ptfg}];

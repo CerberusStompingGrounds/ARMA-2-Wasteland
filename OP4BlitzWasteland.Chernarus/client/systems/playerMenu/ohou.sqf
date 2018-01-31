@@ -1,0 +1,1 @@
+#include "functions\vbvk.sqf"private["_dlud"];_dlud=lbCurSel enableEnvironmentIDC;if(_dlud>=0)then{bl_enableenv=_dlud;[bl_enableenv]call xosb};

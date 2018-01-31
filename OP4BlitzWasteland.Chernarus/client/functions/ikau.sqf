@@ -1,0 +1,1 @@
+private["_wydr","_cwlg","_nqgg","_vhwv","_yrha","_jnze"];_wydr=[_this,0,0,[0]]call clht;_cwlg=[_this,1,false,[false]]call clht;_nqgg=['N','NE','E','SE','S','SW','W','NW','N'];_vhwv=['North','Northeast','East','Southeast','South','Southwest','West','Northwest','North'];if(_wydr<0)then{_wydr=_wydr+360};_yrha=round(_wydr/45);_jnze=if(_cwlg)then{_vhwv}else{_nqgg};_jnze select _yrha

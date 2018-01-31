@@ -1,0 +1,1 @@
+private["_weql","_bjad","_contents","_obj","_object","_mags","_weapons","_items","_i"];_weql=[_this,0,objNull,[objNull]]call clht;_bjad=[_this,1,"",[""]]call clht;gshg=[player,_weql,_bjad];publicVariableServer"gshg";[_weql]spawn{nyea=objNull;waituntil{!isNull nyea};nyea call u_fnc_op;['unloadedItem',[_this select 0,nyea]]call u_fnc_lk};

@@ -1,0 +1,1 @@
+private["_ptld","_rlqq"];_ptld=[_this,0,objNull,[objNull]]call clht;_rlqq=[_this,1,[0,0,0],[[]],[3]]call clht;if(local _ptld)then{_ptld setVelocity _rlqq}else{[_this,"fhcb",_ptld]call nfhm};

@@ -1,0 +1,5 @@
+#include "vbvk.sqf"private["_qdkn","_iqll","_afhn","_ktvf"];bl_gearpresets=profileNamespace getVariable['bl_gearpresets',[]call dssf];bl_gearloadout=(profileNamespace getVariable['bl_gearloadout','defaultLoadout'call trss])call igmr;_qdkn=0;lbClear((findDisplay respawnDialogIDD)displayCtrl respawnListPresetsIDC);[bl_gearpresets,{if(typeName _value=="ARRAY")then{_igjk=(_value call igmr)call jmin;lnbAddRow[respawnListPresetsIDC,["",_key,format['$%1',_igjk]]];lnbSetData[respawnListPresetsIDC,[_qdkn,1],_key];_qdkn=_qdkn+1}}]call kqcm;_iqll=[]call apdk;_afhn=(bl_gearloadout call igmr)call jmin;_ktvf="#FFFFFF";if(_afhn>_iqll)then{_ktvf="#FF0000"};((findDisplay respawnDialogIDD)displayCtrl respawnTransactionDetailsIDC)ctrlSetStructuredText parseText format["
+Cash: <t align='right'>$%1</t><br />
+Loadout Cost: <t align='right'>$%2</t><br />
+Total: <t align='right' color='%4'>$%3</t><br />
+",_iqll,_afhn,_iqll - _afhn,_ktvf];

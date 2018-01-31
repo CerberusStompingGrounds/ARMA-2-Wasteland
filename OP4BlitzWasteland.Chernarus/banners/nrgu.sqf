@@ -1,0 +1,7 @@
+sleep 30;_lzwr=[["#cc2a36","Website and Forums!","#FFFFFF","www.op4squad.com"],["#cc2a36","Auto Restarts","#FFFFFF","This server restarts every 6 hours automatically"],["#cc2a36","Can't Find A Mod Or Admin?","#FFFFFF","Head over to our Teamspeak- ts9.gamersvoip.net:10035"],["#cc2a36","Donator LoadOuts","#FFFFFF","Donations keep the server alive, however Bohemia Requires No Perks For Donation WE DO NOT OFFER ANY PERKS OR SERVICES"],["#cc2a36","Auto Restarts","#FFFFFF","This server restarts every 6 hours automatically"],["#cc2a36","Changelog - WIP","#FFFFFF","Visit the website for details"],["#cc2a36","Donator LoadOuts","#FFFFFF","Donations keep the server alive, however Bohemia Requires No Perks For Donation WE DO NOT OFFER ANY PERKS OR SERVICES"],["#cc2a36","Auto Restarts","#FFFFFF","This server restarts every 6 hours automatically"]];while{true}do{sleep 300;_fhjd=_lzwr select(random(count _lzwr - 1));hint parseText format["
+	
+		<t align='center' color='%1' shadow='1' shadowColor='#000000' size='1.50'>%2</t><br/>
+		<t align='center' color='#FFFFFF' shadow='2' shadowColor='#000000' size='1.00'>____________________________</t><br/>
+		<t align='center' color='%3' size='1.25'>%4</t><br/>
+		
+	",(_fhjd select 0),(_fhjd select 1),(_fhjd select 2),(_fhjd select 3)]};

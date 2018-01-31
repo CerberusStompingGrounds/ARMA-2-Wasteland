@@ -1,0 +1,1 @@
+if(['beforeReleaseObject',[fasj]]call u_fnc_lk||!alive player)then{player reveal fasj;detach fasj;fasj setVelocity[0,0,0];fasj=objNull;[]call u_fnc_tb;fasj};

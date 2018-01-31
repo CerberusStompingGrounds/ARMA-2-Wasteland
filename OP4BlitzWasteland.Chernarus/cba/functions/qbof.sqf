@@ -1,0 +1,1 @@
+#include "script_macros_common.hpp"PARAMS_2(_nkjn,_zllo);private["_gxrd","_ffgb"];_gxrd=bpdt getVariable _nkjn;if(isNil"_gxrd")then{bpdt setVariable[_nkjn,[_zllo]];_ffgb=0}else{_ffgb=count _gxrd;PUSH(_gxrd,_zllo)};TRACE_2("Added",_nkjn,_ffgb);_ffgb;

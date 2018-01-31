@@ -1,0 +1,1 @@
+private["_rdvo"];_rdvo=[_this,0,"",[""]]call clht;if(hasInterface)then{quvh=missionNamespace getVariable['quvh',[[],objNull]call dssf];deleteVehicle([quvh,_rdvo]call rewl)};

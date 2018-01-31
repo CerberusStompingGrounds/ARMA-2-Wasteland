@@ -1,0 +1,1 @@
+{(_this select 0)drawIcon[ngfm+'client\systems\baseFlag\icons\base.paa',[1,1,1,1],_x select 2,24,24,0,'',0];true}count jlos;

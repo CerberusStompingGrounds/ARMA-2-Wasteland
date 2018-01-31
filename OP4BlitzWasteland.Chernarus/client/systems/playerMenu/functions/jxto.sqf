@@ -1,0 +1,1 @@
+private["_xvul","_zzyz"];_xvul=[_this,0,"",["",[]]]call clht;if(typeName _xvul=="STRING")then{_xvul=[_xvul]};_zzyz=player getVariable['hakf',[]];_zzyz=_zzyz+_xvul;player setVariable['hakf',_zzyz,true];[]call mfov;_zzyz

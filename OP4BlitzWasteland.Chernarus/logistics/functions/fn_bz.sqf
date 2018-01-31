@@ -1,0 +1,1 @@
+private["_fnrm","_fgjg","_yqxy","_cldn","_bvyh"];_fnrm=[_this,0,fasj,[objNull]]call clht;_fgjg=[_this,1,getDir _fnrm,[0]]call clht;_yqxy=boundingBox _fnrm;_cldn=boundingCenter _fnrm;_bvyh=[_cldn select 0,_cldn select 1,_yqxy select 1 select 0,_yqxy select 1 select 1,_fgjg]call u_fnc_pn;_bvyh

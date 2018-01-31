@@ -1,0 +1,1 @@
+_pbia=[_this,0,[0,0,0],[[]],[2,3]]call clht;_bddl=[_this,1,[0,0,0],[[]],[2,3]]call clht;_demf=[([_pbia,_bddl]call bis_fnc_dirto),true]call yybl;_udiv=round(_pbia distance _bddl);format['%1m %2',_udiv,_demf]

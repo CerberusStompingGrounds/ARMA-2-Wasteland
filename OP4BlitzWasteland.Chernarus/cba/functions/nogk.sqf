@@ -1,0 +1,2 @@
+#include "script_hashes.hpp"
+#include "script_macros_common.hpp"PARAMS_2(_fvef,_jwvg);private["_dfza","_pyvu"];_dfza=_fvef select HASH_KEYS;_pyvu=_fvef select HASH_VALUES;for"_sqnx"from 0 to((count _dfza)- 1)do{private["_key","_value"];_key=_dfza select _sqnx;_value=_pyvu select _sqnx;call _jwvg};nil;

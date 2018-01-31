@@ -1,0 +1,1 @@
+private["_yxku","_jmnr"];_yxku=vehicle player;_jmnr=viewDistance;switch true do{case(_yxku isKindOf"Man"):{_jmnr=bl_footviewdistance};case(_yxku isKindOf"LandVehicle"):{_jmnr=bl_carviewdistance};case(_yxku isKindOf"Air"):{_jmnr=bl_airviewdistance}};setViewDistance _jmnr;_jmnr

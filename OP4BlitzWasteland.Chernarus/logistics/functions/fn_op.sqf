@@ -1,0 +1,1 @@
+private["_bqui"];_bqui=[_this,0,objNull,[objNull]]call clht;if([_bqui]call u_fnc_my)then{if(!isNil"fasj")then{detach fasj};fasj=_bqui;tptn=2.5;pmti=0;kgwg=0;tfft=0;opdu=[player,fasj];publicVariableServer"opdu";[]spawn{waitUntil{local fasj};[]call u_fnc_yq;[]call u_fnc_rg};[]spawn{while{!isNull fasj}do{if(vehicle player!=player)then{[]call u_fnc_ot};sleep 0.5}}};

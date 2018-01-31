@@ -1,0 +1,1 @@
+#include "functions\vbvk.sqf"_gzuq=[]call keav;_lzbq=_gzuq select 1;if(qksg)then{[player]call kugk};if(_this=='ground')then{player setPosATL _lzbq}else{_lzbq set[2,'haloSpawnHeight'call trss];[player,_lzbq,0]call bplm};{player reveal _x}count(_lzbq nearEntities[['Air','LandVehicle'],100]);[]call jsxv;closeDialog respawnDialogIDD;

@@ -1,0 +1,1 @@
+private["_uzyu","_xxwi","_pos","_name","_radius"];_uzyu=entities"LocationLogicCity";_xxwi=[];{_xxwi set[count _xxwi,_x call iybi]}count _uzyu;_xxwi

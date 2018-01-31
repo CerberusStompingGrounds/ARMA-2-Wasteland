@@ -1,0 +1,1 @@
+{if(_foreachindex==_this)then{if(qksg)then{[player]call kugk};(_x select 0)call(_x select 1);[]call jsxv}}forEach kwdm;

@@ -1,0 +1,1 @@
+private["_znui","_asjt"];_znui=[_this,0,player,[objNull]]call clht;_asjt=_znui getVariable['xiig',0];if(typeName _asjt!="SCALAR")then{_asjt=parseNumber _asjt};_asjt

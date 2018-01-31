@@ -1,0 +1,2 @@
+disableSerialization;
+#include "vbvk.sqf"private["_ebtt",'_obj',"_aykd","_puvu"];_ebtt=_this select 0;_xhoy=_this select 1;_aykd=_this select 2;_puvu=((uiNamespace getVariable'AdminHUD')displayCtrl(adminHUDplayerIconsIDC+_aykd));_puvu ctrlSetStructuredText parseText _xhoy;_puvu ctrlSetPosition[_ebtt select 0,_ebtt select 1,safezoneW*0.5,safezoneH*0.5];_puvu ctrlShow true;_puvu ctrlCommit 0;nil

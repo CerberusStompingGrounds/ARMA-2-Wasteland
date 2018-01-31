@@ -1,0 +1,1 @@
+private["_agqj"];_agqj=[_this,0,objNull,[objNull]]call clht;fbfr=[player,format['%1 (%2) started freelook camera at %3 (%4)',name player,getPlayerUID player,name _agqj,getPlayerUID _agqj]];publicVariableServer"fbfr";[getPosATL _agqj]call fpxs;

@@ -1,0 +1,1 @@
+#include "functions\vbvk.sqf"_kzoa=_this;if(count uqoz>=_kzoa)then{_tycy=uqoz select _kzoa;(_tycy select 1)call(_tycy select 2)};[]call bjqd;

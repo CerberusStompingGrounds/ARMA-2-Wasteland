@@ -1,0 +1,1 @@
+#include "functions\vbvk.sqf"disableSerialization;_dbau=lnbCurSelRow respawnListPresetsIDC;if(_dbau==-1)exitwith{};_cqdi=lnbData[respawnListPresetsIDC,[_dbau,1]];_lxaw=(_cqdi call ddus)call igmr;bl_gearloadout=_lxaw;profileNamespace setVariable['bl_gearloadout',bl_gearloadout];saveProfileNamespace;[]call vtxp;[]call hciq;

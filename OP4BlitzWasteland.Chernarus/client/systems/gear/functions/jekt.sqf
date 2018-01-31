@@ -1,0 +1,1 @@
+private["_xjjp"];_xjjp=[_this,0,player,[player]]call clht;[magazines _xjjp,weapons _xjjp,currentWeapon _xjjp,_xjjp getVariable['x_player_backpack',[]]]

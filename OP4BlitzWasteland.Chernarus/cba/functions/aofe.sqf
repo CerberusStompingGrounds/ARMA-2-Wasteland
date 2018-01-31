@@ -1,0 +1,1 @@
+#include "script_macros_common.hpp"PARAMS_1(_gzjk);while{_gzjk<0}do{_gzjk=_gzjk+360};if(_gzjk>360)then{_gzjk=_gzjk mod 360};_gzjk;

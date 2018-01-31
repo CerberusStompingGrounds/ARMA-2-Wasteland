@@ -1,0 +1,1 @@
+['fuelEmpty','Fuel Can (Empty)','Fuel_can',[],{hint"You cannot use an empty fuel can. Go find a fuel pump."}]call uvsm;['Refuel Fuel Can',{'fuelEmpty'in(player getVariable['hakf',[]])&&(_this select 0)isKindOf"Land_A_FuelStation_Feed"},{['fuelFull']call vzts;['fuelEmpty']call vyes}]call ewwn;

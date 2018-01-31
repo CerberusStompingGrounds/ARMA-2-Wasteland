@@ -1,0 +1,1 @@
+private["_lyyc","_cvqj","_vzdc","_neue"];_lyyc=[_this,0,'',['']]call clht;_cvqj=[_this,1,[],[[]]]call clht;_vzdc=true;{if(!isNil"_x"&&{_x select 0==_lyyc})then{_neue=_cvqj call(_x select 1);if(!isNil"_neue"&&{typeName _neue=="BOOL"})then{_vzdc=_vzdc&&_neue}}}count kahu;_vzdc

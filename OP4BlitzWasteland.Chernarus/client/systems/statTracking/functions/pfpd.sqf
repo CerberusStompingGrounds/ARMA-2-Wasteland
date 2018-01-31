@@ -1,0 +1,1 @@
+private["_sqny"];_sqny=[_this,0,"",[""]]call clht;systemChat _sqny;

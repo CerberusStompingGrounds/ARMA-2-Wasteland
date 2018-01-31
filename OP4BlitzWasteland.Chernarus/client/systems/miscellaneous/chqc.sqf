@@ -1,0 +1,1 @@
+if('allowThermals'call trss)exitwith{};_jqqq=vehicle player;_fjqf=cameraView;while{true}do{waitUntil{_jqqq!=vehicle player||(_fjqf!=cameraView&&cameraView=="GUNNER")};_jqqq=vehicle player;_jqqq disableTIEquipment true};

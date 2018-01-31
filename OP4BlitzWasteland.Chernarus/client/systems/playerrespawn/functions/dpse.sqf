@@ -1,0 +1,1 @@
+private["_wszk","_xvvn","_mflq",'_owner'];_wszk=[_this,0,'air',['']]call clht;_xvvn=[_this,1,[],[[]],[3]]call clht;_mflq=[_this,2,0,[0]]call clht;_zhbh=[_this,3,getPlayerUID player,['']]call clht;_skmn=[_wszk,_zhbh,_xvvn,_mflq];uhrn=_skmn;publicVariableServer"uhrn";_skmn

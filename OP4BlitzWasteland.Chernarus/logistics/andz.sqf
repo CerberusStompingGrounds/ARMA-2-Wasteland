@@ -1,0 +1,1 @@
+#include "functions\vbvk.sqf"private["_letb","_vjhh"];_letb=lnbCurSelRow LOG_OCcontents_idc;if(_letb>-1)then{_vjhh=lnbData[LOG_OCcontents_idc,[_letb,0]];[jbno,_vjhh]call u_fnc_kj;closeDialog 0};

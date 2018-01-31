@@ -1,0 +1,1 @@
+_this spawn{private["_fvaq","_vnjq","_hwrg","_ssfc","_zyoh"];_fvaq=[_this,0,[0,0,0],[[]],[2,3]]call clht;_vnjq=[_this,1,5,[5]]call clht;_hwrg=[_this,2,objNull,[objNull]]call clht;_ssfc=[_this,3,[],[[]]]call clht;_zyoh=[_this,4,{},[{}]]call clht;oijp=[player,_fvaq,_vnjq,_hwrg];wtcl=nil;publicVariableServer"oijp";waituntil{!isNil"wtcl"};[wtcl,_ssfc]call _zyoh};

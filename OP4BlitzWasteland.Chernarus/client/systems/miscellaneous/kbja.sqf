@@ -1,0 +1,1 @@
+utzr='safeZones'call trss;player addEventHandler['Fired',"_this call "+str{{if((_this select 0)distance(_x select 0)<(_x select 1))exitwith{deleteVehicle(_this select 6);if(_x select 2)then{player setDamage 1}}}count utzr}];

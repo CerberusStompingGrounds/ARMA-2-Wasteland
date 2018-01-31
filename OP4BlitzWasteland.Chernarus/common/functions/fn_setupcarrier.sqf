@@ -1,0 +1,2 @@
+#define THIS_FILE "fn_setupcarrier.sqf"
+if(!isServer)exitWith{};_iarh=[getPosASL lhd_center select 0,getPosASL lhd_center select 1,-0.9];{_dfli=createVehicle[_x,_iarh,[],0,"NONE"];_dfli setdir 270;_dfli setPos _iarh}foreach["Land_LHD_house_1","Land_LHD_house_2","Land_LHD_1","Land_LHD_2","Land_LHD_3","Land_LHD_4","Land_LHD_5","Land_LHD_6"];

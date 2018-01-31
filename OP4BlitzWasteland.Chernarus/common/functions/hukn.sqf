@@ -1,0 +1,1 @@
+private["_ptjp","_yqio"];_ptjp=[_this,0,10,[0]]call clht;_yqio="";for"_i"from 1 to _ptjp do{_yqio=_yqio+str(floor random 10)};_yqio

@@ -1,0 +1,1 @@
+private["_lkca","_jarm"];_lkca=[_this,0,"",[""]]call clht;_jarm=[_lkca]call oclg;['groupCancelInvite',[_jarm,name player]]call zfyd;wplz set[wplz find _lkca,nil];

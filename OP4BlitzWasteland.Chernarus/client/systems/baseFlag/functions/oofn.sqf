@@ -1,0 +1,1 @@
+private["_nnpy"];_nnpy=[_this,0,[0,0,0],[[],objNull]]call clht;if(typeName _nnpy=="OBJECT")then{_nnpy=getPosATL _nnpy};({_nnpy distance(_x select 2)<=125}count jlos)>0

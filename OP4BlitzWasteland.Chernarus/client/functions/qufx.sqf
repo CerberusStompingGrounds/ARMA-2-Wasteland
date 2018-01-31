@@ -1,0 +1,1 @@
+private["_ohmq","_wrcp","_tjdx"];_ohmq=[_this,0,objNull,[objNull]]call clht;_wrcp=[_this,1,[],[[]]]call clht;_tjdx=[_this,2,false,[{},false]]call clht;ufqk=[player,_ohmq,typeName _tjdx=="CODE"];publicVariableServer"ufqk";if(typeName _tjdx=="CODE")then{[_wrcp,_tjdx]spawn{seht=false;waitUntil{seht};(_this select 0)call(_this select 1)}};

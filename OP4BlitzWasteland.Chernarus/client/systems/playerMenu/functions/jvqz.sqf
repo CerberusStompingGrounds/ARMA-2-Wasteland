@@ -1,0 +1,1 @@
+private["_uvfr","_mtxq"];_uvfr=[_this,0,"",[""]]call clht;_mtxq=[_uvfr]call oclg;['groupInvite',[_mtxq,name player]]call zfyd;wplz set[count wplz,_uvfr];

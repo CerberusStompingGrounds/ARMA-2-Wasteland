@@ -1,0 +1,1 @@
+disableSerialization;private["_ivja","_xwdk"];_ivja=_this select 0;_xwdk=_this select 1;lbClear _ivja;{_adsn=_ivja lbAdd format["%1 [$%2]",_x call lorz,_x call vcxu];_ivja lbSetPicture[_adsn,_x call jgyl];_ivja lbSetData[_adsn,str[_x select 0,_x select 1]];nil}count _xwdk;

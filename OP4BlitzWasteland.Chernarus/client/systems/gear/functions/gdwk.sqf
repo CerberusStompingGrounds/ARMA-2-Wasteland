@@ -1,0 +1,1 @@
+private["_rfed"];_rfed=+_this;{if!(_x call moge)then{_rfed set[_foreachindex,"REMOVE"]}}forEach _rfed;(_rfed -["REMOVE"])

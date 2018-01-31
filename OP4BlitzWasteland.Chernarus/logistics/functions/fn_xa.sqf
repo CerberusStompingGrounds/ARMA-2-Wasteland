@@ -1,0 +1,1 @@
+#include "vbvk.sqf"private["_hqrl","_juzq","_myyj","_xeox","_xelm"];_hqrl=[_this,0,objNull,[objNull]]call clht;_juzq=[_this,1,"",[objNull,""]]call clht;if(typeName _juzq=="OBJECT")then{_juzq=typeof _juzq};_myyj=_hqrl call u_fnc_mn;_xeox=_hqrl call u_fnc_np;_xelm=(_juzq call u_fnc_db)select CONFIG_INDEX_SIZE;(_myyj+_xelm)<=_xeox

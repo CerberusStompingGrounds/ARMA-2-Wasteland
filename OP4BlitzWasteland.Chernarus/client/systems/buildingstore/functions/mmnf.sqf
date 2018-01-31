@@ -1,0 +1,1 @@
+private["_pfhm","_mhqr","_wqpm"];_pfhm=[_this,0,[0,0,0],[[]],[3]]call clht;_mhqr=[_this,1,5,[0]]call clht;_wqpm=objNull;{if(_x call u_fnc_np>0)exitwith{_wqpm=_x}}forEach(nearestObjects[_pfhm,["All"],_mhqr]);_wqpm

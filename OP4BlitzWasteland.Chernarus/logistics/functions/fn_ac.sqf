@@ -1,0 +1,1 @@
+private["_ezxx","_ddwr","_ekma","_raqo","_ajem","_fhrs","_ejsl"];;_ezxx=[_this,0,objNull,[objNull]]call clht;_ddwr=boundingBox _ezxx;_ekma=_ddwr select 0;_raqo=_ddwr select 1;_ajem=abs((_raqo select 0)-(_ekma select 0));_fhrs=abs((_raqo select 1)-(_ekma select 1));_ejsl=abs((_raqo select 2)-(_ekma select 2));[_ajem,_fhrs,_ejsl]

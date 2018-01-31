@@ -1,0 +1,1 @@
+#include "functions\vbvk.sqf"_yybg=(uiNamespace getVariable'gearDialog')displayCtrl ammoListIDC;_hjoc=_yybg lbData(lbCurSel _yybg);_hjoc=call compile _hjoc;_hjoc call tyrl;

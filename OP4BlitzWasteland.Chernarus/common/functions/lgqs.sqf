@@ -1,0 +1,1 @@
+private["_jpwr","_jlrv"];_jpwr=[_this,0,'',['']]call clht;_jlrv=objNull;{if(getPlayerUID _x==_jpwr)exitwith{_jlrv=_x}}count(playableUnits+allDead);_jlrv

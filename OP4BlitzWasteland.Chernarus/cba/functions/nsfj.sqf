@@ -1,0 +1,1 @@
+#include "script_macros_common.hpp"PARAMS_3(_soab,_jhot,_ytdm);private"_value";if(not isNil"_ytdm")then{_value=_ytdm};if(not isNil"_soab")then{if((typeName _soab)=="ARRAY")then{if((count _soab)>(_jhot))then{if(not isNil{_soab select(_jhot)})then{_value=_soab select(_jhot)}}}};if(isNil"_value")then{nil}else{_value};

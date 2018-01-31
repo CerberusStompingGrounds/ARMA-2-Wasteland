@@ -1,0 +1,1 @@
+_wdah=_this;bl_gearpresets=profileNamespace getVariable['bl_gearpresets',[]call dssf];+([bl_gearpresets,_wdah]call rewl)

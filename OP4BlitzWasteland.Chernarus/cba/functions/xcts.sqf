@@ -1,0 +1,2 @@
+#include "script_hashes.hpp"
+#include "script_macros_common.hpp"PARAMS_2(_twzq,_key);private["_zcbl"];_zcbl=_twzq select HASH_DEFAULT_VALUE;[_twzq,_key,if(isNil"_zcbl")then{nil}else{_zcbl}]call ykms;_twzq;

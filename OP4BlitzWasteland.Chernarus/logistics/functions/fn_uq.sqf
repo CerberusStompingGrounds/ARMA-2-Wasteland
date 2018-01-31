@@ -1,0 +1,1 @@
+#include "vbvk.sqf"private["_eozr","_fwua","_ehgq"];_eozr=[_this,0,"",[""]]call clht;_ehgq="";_fwua=_eozr call u_fnc_db;if(count _fwua>0)then{if(count _fwua>CONFIG_INDEX_OVERRIDENAME&&{_fwua select CONFIG_INDEX_OVERRIDENAME!=""})then{_ehgq=_fwua select CONFIG_INDEX_OVERRIDENAME}else{_ehgq=getText(configFile>>"CfgVehicles">>_eozr>>"displayName")}};_ehgq

@@ -1,0 +1,1 @@
+#include "vbvk.sqf"private["_gxsu","_mcmh"];_gxsu=[_this,0,displayNull,[displayNull]]call clht;_mcmh=[_this,1,0,[0]]call clht;[_gxsu,_mcmh,false]call tubh;

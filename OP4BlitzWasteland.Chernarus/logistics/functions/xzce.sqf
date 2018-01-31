@@ -1,0 +1,1 @@
+private["_fsma"];_fsma=usvx select(_this select 3);(_fsma select 2)call(_fsma select 1);nil

@@ -1,0 +1,1 @@
+private["_mbih","_bzuj","_rwfn"];_mbih=[_this,0,'',['']]call clht;_bzuj=[_this,1,{},[{}]]call clht;kahu=missionNamespace getVariable['kahu',[]];_rwfn=count kahu;kahu set[_rwfn,[_mbih,_bzuj]];_rwfn

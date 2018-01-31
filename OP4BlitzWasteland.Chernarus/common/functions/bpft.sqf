@@ -1,0 +1,1 @@
+private["_uedk","_vfbi"];_uedk=_this select 0;_vfbi=objNull;{if(_x call bis_fnc_absspeed>0)exitwith{_vfbi=_x}}count(_uedk nearEntities[["LandVehicle","Air"],5]);_vfbi

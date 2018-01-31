@@ -1,0 +1,1 @@
+[]spawn{private["_vfjy"];_vfjy=player addEventHandler['fired',{deleteVehicle(_this select 6);titleText['Your weapons will not work while moving an object','PLAIN',0];titleFadeOut 10;if(cameraView=="Gunner")then{player switchCamera"Internal"};player action["WEAPONONBACK",player]}];waitUntil{isNull fasj};player removeEventHandler['fired',_vfjy]};

@@ -1,0 +1,2 @@
+#include "script_hashes.hpp"
+#include "script_macros_common.hpp"private["_znub","_nezz","_new"];PARAMS_2(_xnij,_key);_znub=(_xnij select HASH_KEYS)find _key;if(_znub>=0)then{(_xnij select HASH_VALUES)select _znub}else{_nezz=_xnij select HASH_DEFAULT_VALUE;if(isNil"_nezz")then{nil}else{if(typeName _nezz=="ARRAY")then{_nezz=+_nezz};_nezz}};

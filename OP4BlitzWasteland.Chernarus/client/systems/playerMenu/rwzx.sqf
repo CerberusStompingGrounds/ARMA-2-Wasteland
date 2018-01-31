@@ -1,0 +1,1 @@
+#include "functions\vbvk.sqf"private["_kcjj","_mkir","_fefr","_kqws"];_kcjj=_this;_mkir=lbData[playerInventoryIDC,lbCurSel playerInventoryIDC];_fefr=qgbi select(unus find _mkir);_kqws=_fefr select 3;if(_kcjj=='use')then{_kqws call(_fefr select 4)}else{_fefr call kgpl};

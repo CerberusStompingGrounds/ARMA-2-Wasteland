@@ -1,0 +1,1 @@
+private["_uqwx"];_uqwx=[_this,0,"EMPTY",[""]]call clht;_uqwx call{if(_this=="FRIENDLY")exitwith{"ColorGreen"};if(_this=="ENEMY")exitwith{"ColorRed"};if(_this=="MIXED")exitwith{"ColorOrange"};"ColorBlack"}

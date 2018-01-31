@@ -1,0 +1,1 @@
+private["_cele","_heyh","_czel","_btmn"];_cele=[_this,0,5,[0]]call clht;_heyh=eyePos player;_czel=[_heyh,_cele,getDir player]call bis_fnc_relpos;_btmn=(([positionCameraToWorld[0,0,0],positionCameraToWorld[0,0,1]]call bis_fnc_vectorfromxtoy)call bis_fnc_unitvector)select 2;_czel set[2,_btmn*_cele+(_heyh select 2)];lineIntersectsWith[_heyh,_czel]

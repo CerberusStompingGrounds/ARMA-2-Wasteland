@@ -1,0 +1,1 @@
+#include "functions\vbvk.sqf"disableSerialization;_wgbm=_this select 0;uiNamespace setVariable['saveAsPresetDialog',_wgbm];(_wgbm displayCtrl savePresetIDC)ctrlEnable false;bl_gearpresets=profileNamespace getVariable['bl_gearpresets',[]call dssf];_fhwk=_wgbm displayCtrl overwritePresetIDC;[bl_gearpresets,{_fhwk lbAdd _key}]call kqcm;

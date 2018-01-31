@@ -1,0 +1,1 @@
+_this spawn{waitUntil{isPlayer(_this select 0)&&!isNil"mrqm"};diag_log format['initPlayerServer: %1',_this];['initPlayerServer',_this]call jiya};

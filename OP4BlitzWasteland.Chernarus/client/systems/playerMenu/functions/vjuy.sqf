@@ -1,0 +1,1 @@
+zfnp=player getVariable['earplugs',0];if(zfnp==0)then{player setVariable['earplugs',1,true];1 fadeSound 0.2;hint'Earplugs are inserted.'};if(zfnp==1)then{player setVariable['earplugs',0,true];1 fadeSound 1;hint'Earplugs are removed.'};

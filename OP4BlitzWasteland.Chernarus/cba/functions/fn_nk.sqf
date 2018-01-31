@@ -1,0 +1,1 @@
+#include "script_macros_common.hpp"PARAMS_2(_iseq,_llem);private["_eysx","_daga"];_eysx=ddnm getVariable _iseq;if(isNil"_eysx")then{ddnm setVariable[_iseq,[_llem]];_daga=0}else{_daga=count _eysx;PUSH(_eysx,_llem)};TRACE_2("Added",_iseq,_daga);_daga;

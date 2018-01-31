@@ -1,0 +1,1 @@
+private["_tvww","_ybfw"];_tvww=[_this,0,'',['']]call clht;_ybfw=[_this,1,'',['']]call clht;{if(_x select 0==_tvww)exitwith{[_x select 1,_ybfw]call u_fnc_pd}}count jjja;

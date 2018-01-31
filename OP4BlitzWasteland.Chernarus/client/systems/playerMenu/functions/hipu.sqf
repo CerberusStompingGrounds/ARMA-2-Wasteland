@@ -1,0 +1,1 @@
+private["_mgrv","_xphw"];_mgrv=[_this,0,"",[""]]call clht;_xphw=player getVariable['hakf',[]];_anxt=_xphw find _mgrv;if(_anxt>-1)then{_xphw set[_anxt,-1];_xphw=_xphw -[-1];player setVariable['hakf',_xphw,true]};[]call mfov;_xphw

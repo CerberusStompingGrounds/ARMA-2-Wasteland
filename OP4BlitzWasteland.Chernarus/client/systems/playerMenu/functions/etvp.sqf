@@ -1,0 +1,1 @@
+private["_jgra","_pdcs"];_jgra=[_this,0,"",[""]]call clht;_pdcs=[_this,1,group player,[grpNull]]call clht;{if(name _x==_jgra)exitwith{[_x]join grpNull}}forEach units _pdcs;

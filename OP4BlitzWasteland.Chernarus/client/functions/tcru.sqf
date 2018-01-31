@@ -1,0 +1,1 @@
+private["_chnp","_rkly"];_chnp=_this;_rkly=[];{if([[_x]]call cdex=="FRIENDLY")then{_rkly set[count _rkly,_x]}}count _chnp;_rkly

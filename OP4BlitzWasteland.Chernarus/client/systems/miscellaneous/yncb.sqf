@@ -1,0 +1,1 @@
+_lvyf=vehicle player;while{true}do{sleep 0.01;if(vehicle player!=player&&_lvyf!=vehicle player&&vehicle player isKindOf"Car")then{_lvyf=vehicle player;cutText["YOUR VEHICLE IS EQUIPPED WITH NITROUS OXIDE!\n HOLD SHIFT TO ACTIVE NOS!!!\nTHE FASTER YOU GO, THE FASTER YOU DIE!","PLAIN",.5]}};

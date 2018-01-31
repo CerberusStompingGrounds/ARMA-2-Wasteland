@@ -1,0 +1,1 @@
+private["_eqob"];_eqob=[_this,0,sideUnknown,[sideUnknown]]call clht;_eqob call{if(_this==west)exitwith{[0,0,0.8,1]};if(_this==east)exitwith{[0.5,0,0,1]};if(_this==resistance)exitwith{[0,0.5,0,1]};[0.5,0,0,1]};
