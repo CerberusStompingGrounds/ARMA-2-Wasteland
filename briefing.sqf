@@ -7,7 +7,7 @@
 // use <br/> tags to separate lines  
 // To add new items
 //
-// player createDiaryRecord["Subjecthere",
+// player createDiaryRecord["x",
 // [
 // "Name of entry",
 // "
@@ -23,13 +23,7 @@ player createDiaryRecord["OP4 Squad",
 "Staff",
 "
 <br/>
-OP4 Squad Staff:<br/><br/>
-	Bubba - Senior Admin<br/>
-	Zombie - Senior Admin<br/>
-	xXHalfSliceXx - Junior Admin<br/>
-	UncleBuck - Moderator<br/>
-	RubADubNub - Moderator<br/>
-	Replicant - Moderator<br/>
+- See our website for a updated staff list!<br/><br/>
 "
 ]
 ];
@@ -39,9 +33,9 @@ player createDiaryRecord["OP4 Squad",
 "Teamspeak",
 "
 <br/>
- op4squad.teamspeakcp.com<br/><br/>
- Insufficient security level can be improved in the identity menu (CTRL+I)<br/><br/>
- Please join and say hello! (Please speak English)<br/><br/>
+- op4squad.teamspeakcp.com<br/><br/>
+- Insufficient security level can be improved in the identity menu (CTRL+I)<br/><br/>
+- Please join and say hello! (Please speak English)<br/><br/>
 "
 ]
 ];
