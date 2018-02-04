@@ -59,7 +59,6 @@ player createDiaryRecord["Wasteland",
 "
 <br/>
 - At the start of the game, spread out and find supplies because supplies are valuable<br/><br/>
-- When picking a base location, it is best advised to pick a place that is out of the way and not so obvious such as airports, cities, castles, etc.<br/><br/>
 - Players randomly spawn in and around towns and could even spawn inside your base, should you set it up in a town.<br/><br/>
 - If you perform a ground insertion, you will be automatically placed near a vehicle.<br/><br/>
 - When you set up a base, never leave your supplies unguarded!<br/><br/>
