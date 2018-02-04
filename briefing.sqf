@@ -42,6 +42,17 @@ player createDiaryRecord["OP4 Squad",
 
 player createDiaryRecord["OP4 Squad",
 [
+"Discord",
+"
+<br/>
+- https://discord.gg/hTdwwN7<br/><br/>
+- Please join and say hello! (Please speak English)<br/><br/>
+"
+]
+];
+
+player createDiaryRecord["OP4 Squad",
+[
 "Reporting Issues",
 "
 <br/>
