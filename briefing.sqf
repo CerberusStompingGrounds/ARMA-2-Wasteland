@@ -62,8 +62,8 @@ player createDiaryRecord["Wasteland",
 - Players randomly spawn in and around towns and could even spawn inside your base, should you set it up in a town.<br/><br/>
 - If you perform a ground insertion, you will be automatically placed near a vehicle.<br/><br/>
 - When you set up a base, never leave your supplies unguarded!<br/><br/>
-There are missions with hostile AI which will protect the mission, be aware of them<br/><br/>
-Vehicles deployed from your inventory will despawn if you move more than 100m away from them<br/><br/>
+- There are missions with hostile AI which will protect the mission, be aware of them<br/><br/>
+- Deployed vehicles despawn if you move 100m away from them<br/><br/>
 "
 ]
 ];
