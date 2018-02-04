@@ -1,0 +1,9 @@
+#define missionsys_DIALOG 2001
+#define lightMission_text 2002
+#define heavyMission_text 2003
+#define Heli1Mission_text 2004
+#define AirMission_text 2008
+#define lightMission_icon 2011
+#define heavyMission_icon 2012
+#define Heli1Mission_icon 2013
+#define AirMission_icon 2014

@@ -1,0 +1,1 @@
+private ["_objs"];  _objs = [["M2StaticMG",[0,0,-0.0162964],0,1,0],["Land_fortified_nest_small",[-0.345215,-0.92749,-0.0618515],179.416,1,0]];  _objs

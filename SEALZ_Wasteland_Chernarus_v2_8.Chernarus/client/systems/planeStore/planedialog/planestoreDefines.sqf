@@ -1,0 +1,10 @@
+#define planeshop_DIALOG 2051
+#define planeshop_plane_TEXT 2052
+#define planeshop_plane_list 2053
+#define planeshop_money 2054
+#define planeshop_plane_pic 2055
+#define planeshop_plane_info 2056
+#define planeshop_cart 2057
+#define planeshop_total 2058
+#define planeshop_buysell 2059
+#define planeshop_plane_Info 2060

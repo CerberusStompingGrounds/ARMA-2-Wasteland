@@ -1,0 +1,10 @@
+#define baseshop_DIALOG 2051
+#define baseshop_base_TEXT 2052
+#define baseshop_base_list 2053
+#define baseshop_money 2054
+#define baseshop_base_pic 2055
+#define baseshop_base_info 2056
+#define baseshop_cart 2057
+#define baseshop_total 2058
+#define baseshop_buysell 2059
+#define baseshop_base_Info 2060

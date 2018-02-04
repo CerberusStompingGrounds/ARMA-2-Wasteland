@@ -97,9 +97,7 @@ player CreateDiaryRecord["Beacons",
 
 - Base beacons are purchased in General Stores.<br/>
 - Base beacons have a radar and alert you to any enemies within a 125m radius.<br/>
-- Spawning on a Base Beacon will spawn you at ground level with no need for parachute timing.<br/>
-- Base beacons will not allow spawning if an enemy is within a 75m radius.<br/>
-- The Base beacon will create a marker on the map showing your position to the rest of the server.<br/>
+- Spawning on a Base Beacon will spawn you at ground level with no need for parachute timing.<br/>awwwwwww
 - For $100 you can redeploy to any spawnable location<br/>
 "
 ]

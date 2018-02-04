@@ -22,17 +22,15 @@ class asr_ai {
 
 		// List of secondary weapons that any unit may take. Other launchers not in this list will only be picked by specialists
 		launchers[] = {
-			"M136","RPG18","cwr2_AT4","cwr2_LAW","cwr2_RPG75",
-			"ACE_M136_CSRS","ACE_M72A2","ACE_M72","ACE_RPG22","ACE_RPG27","ACE_RPOM","ACE_RSHG1","ACE_RMG"
+			"RPG7V"
 		};
 		// List of frag grenades that units will look for
 		grenades[] = {
-			"HandGrenade","HandGrenade_West","HandGrenade_East","BAF_L109A1_HE","ACE_DM51","ACE_DM51A1"
+			"HandGrenade"
 		};
 		// List of smoke grenades that units will look for
 		smokes[] = {
-			"SmokeShell","SmokeShellRed","SmokeShellGreen","SmokeShellYellow","SmokeShellPurple","SmokeShellBlue","SmokeShellOrange",
-			"ACE_M34","ACE_RDG2","ACE_RDGM","ACE_DM25","ACE_DM31","ACE_DM32","ACE_DM33","ACE_DM34","ACE_DM36","ACE_M15"
+			"SmokeShell","SmokeShellRed","SmokeShellGreen","SmokeShellYellow","SmokeShellPurple","SmokeShellBlue","SmokeShellOrange"
 		};
 	};
 

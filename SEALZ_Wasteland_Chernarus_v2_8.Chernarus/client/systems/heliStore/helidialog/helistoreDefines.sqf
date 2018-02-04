@@ -1,0 +1,10 @@
+#define helishop_DIALOG 2051
+#define helishop_heli_TEXT 2052
+#define helishop_heli_list 2053
+#define helishop_money 2054
+#define helishop_heli_pic 2055
+#define helishop_heli_info 2056
+#define helishop_cart 2057
+#define helishop_total 2058
+#define helishop_buysell 2059
+#define helishop_heli_Info 2060

@@ -1,0 +1,10 @@
+#define vehicleshop_DIALOG 2051
+#define vehicleshop_vehicle_TEXT 2052
+#define vehicleshop_vehicle_list 2053
+#define vehicleshop_money 2054
+#define vehicleshop_vehicle_pic 2055
+#define vehicleshop_vehicle_info 2056
+#define vehicleshop_cart 2057
+#define vehicleshop_total 2058
+#define vehicleshop_buysell 2059
+#define vehicleshop_vehicle_Info 2060
