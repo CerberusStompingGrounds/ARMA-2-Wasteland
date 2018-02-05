@@ -18,7 +18,7 @@ _config = [] call BL_fnc_hashCreate;
 // Missions available for selection
 [_config, 'missions', [
 	// server\systems\missions\{missionName}.sqf, probability of selecting mission
-	['heliCrash', 0.1],
+  //['heliCrash', 0.1],
 	['convoyMission', 0.2],
 	['randomVehicle', 1],
   //['invasion', 0.1],

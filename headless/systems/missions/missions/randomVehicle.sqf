@@ -8,18 +8,22 @@
 	if ( isNil "_possible" ) then {
 		_possible = [
 			["M2A3_EP1",.8],
-			["MLRS",.05],
+			["MLRS",.02],
 			["AH64D",.1],
 			["M1A2_TUSK_MG",.8],
-			["2S6M_Tunguska",1],
+			["2S6M_Tunguska",.8],
 			["UH1Y",.6],
 			["T90",.7],
 			["Ka52",.1],
-			["GRAD_CDF",.05],
+			["GRAD_CDF",.02],
 			["AH1Z",.1],
 			["BAF_FV510_W",.8],
 			["Mi24_P",.1],
-			["M6_EP1",.8]
+			["Mi24_D",.1],
+			["BTR90",.5],
+			["M6_EP1",.8],
+			["D30",.02],
+			["M119",.5]
 		];
 	};
 	
