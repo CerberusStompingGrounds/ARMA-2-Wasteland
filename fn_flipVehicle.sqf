@@ -9,12 +9,12 @@ if ( _veh == player ) then {
 };
 
 if ( _veh != player && !isNull _veh ) then {
-	if ( (_veh call BIS_fnc_absSpeed) < 5 ) then {
+	if ( (_veh call BIS_fnc_absSpeed) < 3 ) then {
 		if ( local _veh ) then {
 			[_veh, true] call BL_fnc_enableSimulation;
 			_veh allowDamage false;
 			_veh setVectorUp [0,0,1];
-			_veh setVelocity [0,0,5];
+			_veh setVelocity [0,0,3];
 			
 			_veh spawn {
 				_time = diag_tickTime;
