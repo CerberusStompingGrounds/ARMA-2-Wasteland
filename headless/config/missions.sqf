@@ -1,40 +1,45 @@
 private ['_config'];
 _config = [] call BL_fnc_hashCreate;
+
 // Amount of missions to run at the same time
 [_config, 'count', 4] call CBA_fnc_hashSet;
-// How long to wait after a mission is finished before starting another.
-[_config, 'delay', 1 * 60] call CBA_fnc_hashSet;
+
+// How long to wait after a mission is finished before
+// starting another.
+[_config, 'delay', 15 * 60] call CBA_fnc_hashSet;
+
 // How long to wait before the first mission
 // after a restart.
-[_config, 'roundStartDelay', 2 * 60] call CBA_fnc_hashSet;
+[_config, 'roundStartDelay', 10 * 60] call CBA_fnc_hashSet;
+
 // How long to wait before removing task
 [_config, 'taskCleanupDelay', 60] call CBA_fnc_hashSet;
+
 // Missions available for selection
 [_config, 'missions', [
-	//['heliCrash', 0.8],
-    //['convoyMission', 0.3],
-    ['randomVehicle', 1],
-    //['invasion', 0.1],
-    ['jetMission', 0.1]
+	// server\systems\missions\{missionName}.sqf, probability of selecting mission
+	['heliCrash', 0.1],
+	['convoyMission', 0.2],
+	['randomVehicle', 1],
+  //['invasion', 0.1],
+	['jetMission', 0.2]
 ]] call CBA_fnc_hashSet;
 
 [_config, 'randomVehicleRewards', [
 	["M2A3_EP1",.8],
-	["MLRS",.02],
+	["MLRS",.05],
 	["AH64D",.1],
 	["M1A2_TUSK_MG",.8],
-	["2S6M_Tunguska",.8],
+	["2S6M_Tunguska",1],
 	["UH1Y",.6],
 	["T90",.7],
 	["Ka52",.1],
-	["GRAD_CDF",.02],
+	["GRAD_CDF",.05],
 	["AH1Z",.1],
 	["BAF_FV510_W",.8],
+	["Mi24_D",.2],
 	["Mi24_P",.1],
-	["M6_EP1",.8],
-	["BTR90",.5],
-	["D30",.02],
-	["M119",.02]
+	["M6_EP1",.8]
 ]] call BL_fnc_hashSet;
 
 [_config, 'randomVehicleBases', [

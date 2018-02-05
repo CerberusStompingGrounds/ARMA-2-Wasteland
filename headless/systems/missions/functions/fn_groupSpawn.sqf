@@ -11,7 +11,7 @@ _cbParams = [_this, count _this-2, [], [[]]] call BL_fnc_param;
 _cb       = [_this, count _this-1, {}, [{}]] call BL_fnc_param;
 
 if ( typeName _group == "BOOL" ) then {
-	_group = createGroup civilian;
+	_group = createGroup east;
 };
 
 if ( count _loc == 2 ) then {

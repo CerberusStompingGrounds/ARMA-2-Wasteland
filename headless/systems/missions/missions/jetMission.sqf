@@ -40,22 +40,29 @@
 	[_missionReward] call BL_fnc_lockVehicle; // Don't let anyone in until they complete the mission
 	
 	_grp = [false, _location, [
-		"US_Delta_Force_TL_EP1",
-		"US_Soldier_HAT_EP1",
-		"US_Soldier_SniperH_EP1",
-		"US_Soldier_GL_EP1",
-		"US_Soldier_AA_EP1",
-		"US_Soldier_AR_EP1",
-		"US_Soldier_Spotter_EP1"
+		"RU_Soldier_SL",
+		"RU_Soldier",
+		"RU_Soldier",
+		"RU_Soldier",
+		"RU_Soldier",
+		"RU_Soldier",
+		"RU_Soldier_GL",
+		"RU_Soldier_GL",
+		"RU_Soldier_LAT",
+		"RU_Soldier_LAT",
+		"RU_Soldier_Sniper",
+		"RU_Soldier_Sniper",
+		"RU_Soldier_AA",
+		"RU_Soldier_AA"
 	], [_location, _missionCode, _missionReward], {
 		_location      = _this select 0 select 0;
 		_missionCode   = _this select 0 select 1;
 		_missionReward = _this select 0 select 2;
-
+	
 		_grp = _this select 1 select 0;
 		_grp allowFleeing 0;
-		_grp setBehaviour "AWARE";
-		_grp setCombatMode "WHITE";
+		_grp setBehaviour "COMBAT";
+		_grp setCombatMode "RED";
 		
 		[_location, units _grp] call BL_fnc_aliveObjectCounter;	
 

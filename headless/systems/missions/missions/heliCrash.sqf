@@ -54,48 +54,23 @@ BL_fnc_missionRandomField,
 	
 	_units = [];
 	_groups = [
-		["RU_Policeman", "RU_Policeman", "RU_Policeman", "RU_Policeman", "RU_Policeman"],
-		["RU_Policeman", "RU_Policeman", "RU_Policeman", "RU_Policeman"]
+		["RU_Soldier_Spotter", "RU_Soldier_Sniper"],
+		["RU_Soldier_Spotter", "RU_Soldier_Sniper"],
+		["RU_Soldier_Spotter", "RU_Soldier_Sniper"],
+		["RU_Soldier_GL", "RU_Soldier_LAT"],
+		["RU_Soldier_GL", "RU_Soldier_LAT"],
+		["RU_Soldier_GL", "RU_Soldier_LAT"]
 	];
 	
 	// Recovery teams
-	for "_i" from 0 to 2 do {
-		_grp = createGroup civilian;
-		_leader = _grp createUnit [(_groups select _i select 0), _crashSite, [], 0, "FORM"];
-		_leader addMagazine "Strela";
-		_leader addWeapon "Strela";
-		_leader addMagazine "30Rnd_545x39_AK";
-		_leader addMagazine "30Rnd_545x39_AK";
-		_leader addMagazine "30Rnd_545x39_AK";
-		_leader addMagazine "30Rnd_545x39_AK";
-		_leader addMagazine "30Rnd_545x39_AK";
-		_leader addMagazine "30Rnd_545x39_AK";
-		_leader addWeapon "AKS_74_U";
-		_man2 = _grp createUnit [(_groups select _i select 1), _crashSite, [], 0, "FORM"];
-		_man2 addMagazine "30Rnd_556x45_G36";
-		_man2 addWeapon "m8_tws";
-		_man3 = _grp createUnit [(_groups select _i select 2), _crashSite, [], 0, "FORM"];
-		_man3 addMagazine "NLAW";
-		_man3 addMagazine "NLAW";
-		_man3 addWeapon "BAF_NLAW_Launcher";
-		_man3 addMagazine "20Rnd_762x51_DMR";
-		_man3 addWeapon "M14_EP1";
-		_man4 = _grp createUnit [(_groups select _i select 2), _crashSite, [], 0, "FORM"];
-		_man4 addMagazine "30Rnd_762x39_AK47";
-		_man4 addMagazine "30Rnd_762x39_AK47";
-		_man4 addWeapon "AK_47_M";
-		_man5 = _grp createUnit [(_groups select _i select 2), _crashSite, [], 0, "FORM"];
-		_man5 addMagazine "20Rnd_762x51_DMR";
-		_man5 addMagazine "20Rnd_762x51_DMR";
-		_man5 addWeapon "DMR";
-		_man6 = _grp createUnit [(_groups select _i select 2), _crashSite, [], 0, "FORM"];
-		_man6 addMagazine "20Rnd_B_AA12_Pellets";
-		_man6 addMagazine "20Rnd_B_AA12_Pellets";
-		_man6 addWeapon "AA12_PMC";
-
+	for "_i" from 0 to 5 do {
+		_grp = createGroup east;
+		_grp createUnit [(_groups select _i select 0), _crashSite, [], 0, "FORM"];
+		_grp createUnit [(_groups select _i select 1), _crashSite, [], 0, "FORM"];
+		
 		_grp allowFleeing 0;
-		_grp setCombatMode "WHITE";
-		_grp setBehaviour "AWARE";
+		_grp setCombatMode "RED";
+		_grp setBehaviour "COMBAT";
 		
 		_wp = _grp addWaypoint [_crashSite, 50];
 		_wp setWaypointType "SAD";

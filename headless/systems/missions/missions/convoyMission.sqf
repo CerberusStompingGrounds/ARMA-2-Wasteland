@@ -16,7 +16,7 @@
 	};
 		
 	_spawnSpot = (selectBestPlaces [_city select 1, 500, "meadow - houses", 1, 1]) select 0 select 0;
-	_group = createGroup civilian;
+	_group = createGroup east;
 	_vehicles = [];
 	
 	_variations = [

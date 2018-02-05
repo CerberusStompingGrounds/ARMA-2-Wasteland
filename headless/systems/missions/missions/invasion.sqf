@@ -31,15 +31,12 @@
 	_missionCode = _this select 1;
 	_location    = _this select 2;
 
-	_outerGroup = createGroup civilian;
+	_outerGroup = createGroup east;
 	_unitTypes = [
-		"Priest",
-		"CIV_EuroMan01_EP1",
-		"Rocker2",
-		"CIV_EuroMan02_EP1",
-		"Priest",
-		"Functionay1_EP1",
-		"Woodlander3"
+		"RU_Soldier_Sniper",
+		"RU_Soldier_GL",
+		"RU_Soldier",
+		"RU_Soldier_LAT"
 	];
 
 	_allUnits = [];
@@ -48,29 +45,7 @@
 		_unitPos = [_location, random (_initResult select 2), random 359] call BIS_fnc_relPos;
 		_unitPos set [2, 3000];
 		
-		_leader = _outerGroup createUnit [(_groups select select floor random count _unitTypes, _unitPos, [], 0, "FORM"];
-		_leader addMagazine "Strela";
-		_leader addWeapon "Strela";
-		_leader addMagazine "30Rnd_545x39_AK";
-		_leader addMagazine "30Rnd_545x39_AK";
-		_leader addMagazine "30Rnd_545x39_AK";
-		_leader addMagazine "30Rnd_545x39_AK";
-		_leader addMagazine "30Rnd_545x39_AK";
-		_leader addMagazine "30Rnd_545x39_AK";
-		_leader addWeapon "AKS_74_U";
-		//_man2 = _outerGroup createUnit [(_unitTypes select _i select 1), _unitTypes, _unitPos, [], 0, "FORM"];
-		_man2 addMagazine "30Rnd_556x45_G36";
-		_man2 addWeapon "m8_tws";
-		//_man3 = _outerGroup createUnit [(_unitTypes select _i select 2), _unitTypes, _unitPos, [], 0, "FORM"];
-		_man3 addMagazine "NLAW";
-		_man3 addMagazine "NLAW";
-		_man3 addWeapon "BAF_NLAW_Launcher";
-		_man3 addMagazine "20Rnd_762x51_DMR";
-		_man3 addWeapon "M14_EP1";
-		//_man4 = _outerGroup createUnit [(_unitTypes select _i select 2), _unitTypes, _unitPos, [], 0, "FORM"];
-		_man4 addMagazine "30Rnd_762x39_AK47";
-		_man4 addMagazine "30Rnd_762x39_AK47";
-		_man4 addWeapon "AK_47_M";
+		_unit = _outerGroup createUnit [_unitTypes select floor random count _unitTypes, _unitPos, [], 0, "FORM"];
 		[_unit, _unitPos, 0] call BL_fnc_halo;
 		_allUnits set [count _allUnits, _unit];
 	};
@@ -111,7 +86,7 @@
 	_rewards = [];
 	
 	for "_i" from 0 to 2 do {
-	_group = createGroup civilian;
+		_group = createGroup east;
 		_rewardGroups set [_i, _group];
 
 		_class = ([_rewardOptions] call BL_fnc_selectRandom) select 0;
