@@ -42,7 +42,7 @@ _config = [] call BL_fnc_hashCreate;
 	["BTR90",.5],
 	["M6_EP1",.8],
 	["D30",.02],
-	["M119",.5]
+	["M119",.02]
 	
 ]] call BL_fnc_hashSet;
 
