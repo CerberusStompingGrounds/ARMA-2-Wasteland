@@ -30,7 +30,6 @@ _config = [] call BL_fnc_hashCreate;
 	["GRAD_CDF",.02],
 	["AH1Z",.1],
 	["BAF_FV510_W",.8],
-	["AW159_Lynx_BAF",.2],
 	["Mi24_P",.1],
 	["M6_EP1",.8],
 	["BTR90",.5],
