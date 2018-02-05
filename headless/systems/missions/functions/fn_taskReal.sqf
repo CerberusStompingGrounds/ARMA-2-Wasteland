@@ -11,7 +11,6 @@
 	Returns:
 	The actual task.
 */
-
 private ["_taskID","_unit","_taskVar"];
 
 _taskID = [_this,0,"",[""]] call BL_fnc_param;

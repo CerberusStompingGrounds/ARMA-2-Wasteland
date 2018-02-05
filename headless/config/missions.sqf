@@ -1,27 +1,20 @@
 private ['_config'];
 _config = [] call BL_fnc_hashCreate;
-
 // Amount of missions to run at the same time
 [_config, 'count', 4] call CBA_fnc_hashSet;
-
-// How long to wait after a mission is finished before
-// starting another.
+// How long to wait after a mission is finished before starting another.
 [_config, 'delay', 1 * 60] call CBA_fnc_hashSet;
-
 // How long to wait before the first mission
 // after a restart.
 [_config, 'roundStartDelay', 2 * 60] call CBA_fnc_hashSet;
-
 // How long to wait before removing task
 [_config, 'taskCleanupDelay', 60] call CBA_fnc_hashSet;
-
 // Missions available for selection
 [_config, 'missions', [
-	// server\systems\missions\{missionName}.sqf, probability of selecting mission
-	['heliCrash', 0.8],
-  //['convoyMission', 0.3],
+	//['heliCrash', 0.8],
+    //['convoyMission', 0.3],
     ['randomVehicle', 1],
-  //['invasion', 0.1],
+    //['invasion', 0.1],
     ['jetMission', 0.1]
 ]] call CBA_fnc_hashSet;
 

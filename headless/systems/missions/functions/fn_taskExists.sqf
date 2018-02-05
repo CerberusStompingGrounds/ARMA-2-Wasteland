@@ -10,7 +10,6 @@
 	Returns:
 	True if the task exists, false if not.
 */
-
 private ["_taskID","_taskVar"];
 _taskID = [_this,0,"",[""]] call BL_fnc_param;
 _taskVar = _taskID call BL_fnc_taskVar;

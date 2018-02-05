@@ -152,19 +152,15 @@ if (_taskParentID != "") then {
 	missionnamespace setvariable [_taskParentVar,_dataParent];
 };
 
-
 //--- Set priority
 _priority = [_this,5,_data select 5,[0]] call BL_fnc_param;
 _data set [5,_priority];
 
-
 //--- Show notification
 _showNotification = [_this,6,_data select 6,[true]] call BL_fnc_param;
 
-
 //--- Save global data
 missionnamespace setvariable [_taskVar,_data];
-
 
 //--- Get locality and execute
 _isGlobal = [_this,7,_data select 7,[true]] call BL_fnc_param;

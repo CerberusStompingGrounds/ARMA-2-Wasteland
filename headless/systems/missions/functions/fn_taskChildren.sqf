@@ -10,7 +10,6 @@
 	Returns:
 	ARRAY - task's sub-tasks.
 */
-
 private ["_taskID","_taskVar","_params"];
 _taskID = [_this,0,"",[""]] call BL_fnc_param;
 _taskVar = _taskID call BL_fnc_taskVar;

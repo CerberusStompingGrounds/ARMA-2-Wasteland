@@ -70,25 +70,3 @@
 		sleep (60 * 5);
 	};
 };
-
-/*
-// Display vehicles on map. Useful for testing.
-(findDisplay 12 displayCtrl 51) ctrlRemoveAllEventHandlers "Draw";
-(findDisplay 12 displayCtrl 51) ctrlAddEventHandler ["Draw", {
-	_map = _this select 0;
-	_config = [] call BL_fnc_rareVehiclesConfig;
-	
-	[_config, {
-		{
-			_class = _x select 0;
-			_icon = getText (configFile >> "CfgVehicles" >> _class >> "icon");
-			
-			{
-				_pos = getPosATL _x;
-				_damage = damage _x;
-				_map drawIcon [_icon, [1,1-_damage,1-_damage,1], _pos, 24, 24, 0, '', 1, 0.03, 'TahomaB', 'right'];
-			} forEach entities _class;
-		} forEach (_value select 1);
-	}] call BL_fnc_hashEachPair;
-}];
-*/

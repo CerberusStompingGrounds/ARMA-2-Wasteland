@@ -10,7 +10,6 @@
 	Returns:
 	BOOL
 */
-
 private ["_taskName"];
 
 _taskName = [_this,0,"",[""]] call BL_fnc_param;

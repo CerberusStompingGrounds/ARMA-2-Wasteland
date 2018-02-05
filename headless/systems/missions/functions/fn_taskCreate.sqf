@@ -15,7 +15,6 @@
 	Returns:
 	BOOL
 */
-
 private ["_target","_params","_desc","_dest","_state","_priority","_showNotification"];
 
 _target = [_this,0,true,[true,sideunknown,grpnull,objnull,[]]] call BL_fnc_param;

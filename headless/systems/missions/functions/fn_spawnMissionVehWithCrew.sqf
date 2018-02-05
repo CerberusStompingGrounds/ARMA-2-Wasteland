@@ -55,5 +55,4 @@ if ( count _units == 0 ) then {
 	[_veh, _createdUnits] call _cb;
 };
 
-
 _veh

@@ -7,8 +7,6 @@ BL_fnc_vehicleTownSpawnsConfig = compile preprocessFileLineNumbers "\x\bl_headle
 call compile preprocessFileLineNumbers "\x\bl_headless\addons\systems\missions\init.sqf";
 call compile preprocessFileLineNumbers "\x\bl_headless\addons\systems\rareVehicleSpawns\init.sqf";
 call compile preprocessFileLineNumbers "\x\bl_headless\addons\systems\vehicleTownSpawns\init.sqf";
-[] execVM "\x\bl_headless\addons\systems\missions\functions\relations.sqf";
-
 
 // http://killzonekid.com/arma-scripting-tutorials-how-to-skip-briefing-screen-in-mp/
 [] spawn {

@@ -60,7 +60,6 @@ BL_townVehiclesToRespawn = [];
 					_class = ([_vehicles, 1, _lowestChance] call BL_fnc_selectRandom) select 0;
 				};
 				
-				// Keep trying until we find a good spot.
 				// Good spot = emptyPosition and no car within 20m
 				while { count _pos == 0 } do {
 					_distance = random _cityRadius - _searchDistance;
@@ -77,7 +76,6 @@ BL_townVehiclesToRespawn = [];
 					};
 				};
 
-			
 				if ( !isNull _veh ) then {
 					diag_log format['Respawning vehicle %1 (%2) from %3 to %4 in %5', typeOf _veh, netId _veh, getPosATL _veh, _pos, _x select 0];
 					
