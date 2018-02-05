@@ -7,11 +7,20 @@
 	
 	if ( isNil "_possible" ) then {
 		_possible = [
-			["I_APC_Wheeled_03_cannon_F", 1],
-			["B_APC_Wheeled_01_cannon_F", 1],
-			["O_MBT_02_cannon_F", 0.5],
-			["I_APC_tracked_03_cannon_F", 1],
-			["B_APC_Tracked_01_AA_F", 1]
+			["M2A3_EP1",.8],
+			["MLRS",.05],
+			["AH64D",.1],
+			["M1A2_TUSK_MG",.8],
+			["2S6M_Tunguska",1],
+			["UH1Y",.6],
+			["T90",.7],
+			["Ka52",.1],
+			["GRAD_CDF",.05],
+			["AH1Z",.1],
+			["BAF_FV510_W",.8],
+			["AW159_Lynx_BAF",.2],
+			["Mi24_P",.1],
+			["M6_EP1",.8]
 		];
 	};
 	
