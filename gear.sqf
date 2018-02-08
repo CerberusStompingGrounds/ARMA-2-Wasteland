@@ -153,7 +153,6 @@ _config = [] call BL_fnc_hashCreate;
 	["CfgWeapons", "PK",0],									// Ammo: clips $200 ea - Total: $1600
 	["CfgWeapons", "m240_scoped_EP1",1000],				// Ammo: clips $200 ea - Total: $1600
 	["CfgWeapons", "MG36",1000],								// Ammo: clips $100 ea - Total: $1300
-	["CfgWeapons", "M249_EP1",1000],							// Ammo: clips $200 ea - Total: $1600
 	["CfgWeapons", "M249_EP1",1000],						// Ammo: clips $200 ea - Total: $1600
 	["CfgWeapons", "BAF_L110A1_Aim",1000],					// Ammo: clips $100 ea - Total: $1300
 	["CfgWeapons", "M249_m145_EP1",1000],					// Ammo: clips $200 ea - Total: $1600
