@@ -126,7 +126,7 @@ x_reload_time_factor = 1;
 		["Earthen Rampart: Half-Circle", "Land_fort_artillery_nest", 150],
 		["Green Gate Left", "Land_Wall_Gate_Ind1_L", 100],
 		["Green Gate Right", "Land_Wall_Gate_Ind1_R", 100],
-		["Pile Of Logs", "Land_Ind_Timbers", 100],
+		["Pile of Logs", "Land_Ind_Timbers", 100],
 		["Small Sniper Trench", "Fort_EnvelopeSmall", 100],
 		["Body Bag", "Body", 200],
 		["Danger Sign", "Sign_Danger", 50],
@@ -169,15 +169,15 @@ x_reload_time_factor = 1;
 		["Tall Smokestack", "Land_Ind_Stack_Big", 1300],
 		["Port-O-Potty", "Land_KBud", 100],
 		["Waterstation block", "Land_Misc_WaterStation", 300],
-		["Nav Lighthouse", "Land_NAV_Lighthouse", 500],
+		["Lighthouse", "Land_NAV_Lighthouse", 500],
 		["Rail Bridge", "Land_rails_bridge_40", 500],
 		["Pier land bridge", "land_nav_pier_m_1", 500],
 		["Pier Wall", "land_nav_pier_C_R10", 1000],
-		["Hanging Deadbody", "Hanged_MD", 150],
+		["Hanging Dead Body", "Hanged_MD", 150],
 		["Trash Barricade", "Fort_Barricade", 300],
 		["Wall Ramp", "Land_prolejzacka", 500],
 		["Pier Large", "land_nav_pier_c2", 2500],
-		["Lhd Elevator", "Land_LHD_elev_R", 900],
+		["LHD Elevator", "Land_LHD_elev_R", 900],
 		["Vehicle Shed", "Land_sara_hasic_zbroj", 600],
 		["Wall Ramp", "Land_prolejzacka", 500],
 		["Shed 2", "Land_Shed_Ind02", 900]	
@@ -193,11 +193,11 @@ x_reload_time_factor = 1;
 		["Staircase", "Land_A_Castle_Stairs_A", 75]
 	]],
 	["Sandbags", [
-		["Sandbag nest: Big", "Land_fortified_nest_big", 75],
-		["Sandbag nest: Small", "Land_fortified_nest_small_EP1", 75],
-		["Sandbag wall: Corner", "Land_fort_bagfence_corner", 75],
-		["Sandbag wall: Long", "Land_fort_bagfence_long", 75],
-		["Sandbag wall: Short", "Land_BagFenceShort", 75],
+		["Sandbag Nest: Big", "Land_fortified_nest_big", 75],
+		["Sandbag Nest: Small", "Land_fortified_nest_small_EP1", 75],
+		["Sandbag Wall: Corner", "Land_fort_bagfence_corner", 75],
+		["Sandbag Wall: Long", "Land_fort_bagfence_long", 75],
+		["Sandbag Wall: Short", "Land_BagFenceShort", 75],
 		["Sandbag round: Large", "Land_fort_bagfence_round", 75],
 		["Sandbag round: Small", "Land_BagFenceRound", 75]
 	]],
@@ -209,7 +209,7 @@ x_reload_time_factor = 1;
 		["M240 Bunker", "WarfareBMGNest_M240_US_EP1", 250],
 		["M2 Tripod", "M2HD_mini_TriPod", 350],
 		["Metis Tripod", "Metis", 2600],
-		["MK19", "MK19_TriPod", 400],
+		["MK19 Tripod", "MK19_TriPod", 400],
 		["M2 High", "M2StaticMG", 350],
 		["SPG9 Tripod", "SPG9_CDF", 350],
 		["Stinger Pod", "Stinger_Pod", 2500],
@@ -219,7 +219,7 @@ x_reload_time_factor = 1;
 	["Wooden Items", [
 		["Wood Board Stack", "Land_Ind_BoardsPack2", 50],
 		["Wood Board Stack 2", "Land_Ind_BoardsPack1", 50],
-		["Wood GuardShed", "Land_GuardShed", 50],	
+		["Wood Guard Shed", "Land_GuardShed", 50],	
 		["Wood Ramp", "Land_WoodenRamp", 25],
 		["Wood Ramp Arc", "Land_prebehlavka", 75]
 	]]
@@ -237,8 +237,8 @@ x_reload_time_factor = 1;
 		["Merlin", "BAF_Merlin_HC3_D", 5000],
 		["AH6J", "AH6J_EP1", 9000],
 		["MV22", "MV22", 11000],
-		["KH60GL", "Ka60_GL_PMC", 12000],
-		["KH60", "Ka60_PMC", 11000],
+		["KA60GL", "Ka60_GL_PMC", 12000],
+		["KA60", "Ka60_PMC", 11000],
 		["UH1Y", "UH1Y", 16000]
 	]]
 ]] call BL_fnc_hashSet;
@@ -261,7 +261,7 @@ x_reload_time_factor = 1;
 		["UAZ DShKM", "UAZ_MG_CDF", 350],
 		["UAZ SPG9", "UAZ_SPG9_INS", 350],
 		["HMMWV Ambulance", "HMMWV_Ambulance", 600],
-		["HMMWV mk19", "HMMWV_MK19", 600],
+		["HMMWV MK19", "HMMWV_MK19", 600],
 		["HMMWV M2", "HMMWV_M2", 600],
 		["HMMWV GPK M2", "HMMWV_M1151_M2_DES_EP1", 600],
 		["HMMWV TOW", "HMMWV_TOW", 1300],
@@ -276,7 +276,7 @@ x_reload_time_factor = 1;
 		["Vodnik Ambulance", "GAZ_Vodnik_MedEvac", 600],
 		["M113 Ambulance", "M113Ambul_TK_EP1", 600],
 		["BMP2 Ambulance", "BMP2_Ambul_CDF", 600],
-		["Ural ZU 23", "Ural_ZU23_CDF", 900],
+		["Ural ZU23", "Ural_ZU23_CDF", 900],
 		["Ural Refuel", "UralRefuel_INS", 900],
 		["Ural Repair", "UralRepair_INS", 900],
 		["BRDM2", "BRDM2_GUE", 1000],
