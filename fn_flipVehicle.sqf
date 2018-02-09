@@ -1,6 +1,6 @@
-_veh = [_this, 0, vehicle player, [objNull]] call BL_fnc_param;
 private["_lastFlipTime", "_timeRemaining", "_canFlip"];
 
+_veh = [_this, 0, vehicle player, [objNull]] call BL_fnc_param;
 //find out how to make this a global parameter
 _lastFlipTime = _veh getVariable "lastFlipTime";
 //find out how to make this a global parameter
@@ -23,6 +23,7 @@ if (!isNil { _lastFlipTime } ) then {
 		_canFlip = false;
 	};
 };
+_veh setVariable["lastFlipTime", time, false];
 if ( _veh != player && !isNull _veh && _canFlip) then {
 	if ( (_veh call BIS_fnc_absSpeed) < 3 ) then {
 		if ( local _veh ) then {
