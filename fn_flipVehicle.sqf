@@ -1,4 +1,10 @@
 _veh = [_this, 0, vehicle player, [objNull]] call BL_fnc_param;
+private["_lastFlipTime", "_timeRemaining", "_canFlip"];
+
+//find out how to make this a global parameter
+_lastFlipTime = _veh getVariable "lastFlipTime";
+//find out how to make this a global parameter
+_canFlip = true;
 
 if ( _veh == player ) then {
 	{
@@ -7,8 +13,18 @@ if ( _veh == player ) then {
 		};
 	} count (nearestObjects [getPosATL player, ["AllVehicles"], 10]);
 };
-
-if ( _veh != player && !isNull _veh ) then {
+if (!isNil { _lastFlipTime } ) then {
+	_timeRemaining == 30 - floor(time - _lastFlipTime);
+	if(_timeRemaining < 0) then {
+		_timeRemaining = 0;
+	};
+	if(_timeRemaining > 0 ) then {
+		//Tell the player that they have to wait
+		//something like player *chat* format["Please wait %1 before attempting to flip this vehicle"];
+		_canFlip = false;
+	};
+};
+if ( _veh != player && !isNull _veh && _canFlip) then {
 	if ( (_veh call BIS_fnc_absSpeed) < 3 ) then {
 		if ( local _veh ) then {
 			[_veh, true] call BL_fnc_enableSimulation;
