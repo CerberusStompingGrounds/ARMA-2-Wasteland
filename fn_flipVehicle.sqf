@@ -19,8 +19,7 @@ if (!isNil { _lastFlipTime } ) then {
 		_timeRemaining = 0;
 	};
 	if(_timeRemaining > 0 ) then {
-		//Tell the player that they have to wait
-		//something like player *chat* format["Please wait %1 before attempting to flip this vehicle"];
+		player systemChat format["Please wait %1 before attempting to flip this vehicle"];
 		_canFlip = false;
 	};
 };
@@ -41,7 +40,6 @@ if ( _veh != player && !isNull _veh && _canFlip) then {
 		else {
 			[[_veh], "BL_fnc_flipVehicle", _veh] call BL_fnc_MP;
 		};
-		
 		closeDialog 0;
 	}
 	else {
