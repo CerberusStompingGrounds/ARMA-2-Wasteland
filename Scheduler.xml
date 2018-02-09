@@ -1,0 +1,1584 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<?xml-stylesheet href="acs.xsl" type="text/xsl" ?>
+
+<Scheduler>
+
+<!-- INTERNAL COMMANDS -->
+<job id="0">
+<start>23:50:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>say -1 *** SERVER WILL AUTO RESTART IN 10 MINUTES !! ***</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="1">
+<start>23:55:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>say -1 *** SERVER WILL AUTO RESTART IN 5 MINUTES !! ***</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="2">
+<start>23:59:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>say -1 *** SERVER WILL AUTO RESTART IN 1 MINUTES !! ***</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<!-- Midnight restart -->
+<job id="3">
+<start>00:00:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>C:\BlitzServer\arma2oa\serverrestart.bat</cmd>
+<cmdtype>1</cmdtype>
+</job>
+
+<job id="4">
+<start>00:10:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>say -1 Sign up on our website www.op4squad.com to donate or make a forum post!</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="5">
+<start>00:20:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>say -1 The full list of rules can be found on our forums</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="6">
+<start>00:30:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>say -1 Join Teamspeak at op4squad.teamspeakcp.com or Discord at discord.gg/hTdwwN7</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="7">
+<start>00:40:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>say -1 The server's IP can change at any time but you can always use op4servers.ddns.net</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="8">
+<start>00:50:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>say -1 Visit the forums or donate at www.op4squad.com</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="9">
+<start>01:00:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>say -1 Ear plugs can be activated by pressing "U"</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="10">
+<start>01:10:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>say -1 Join the OP4 Wasteland Prime Blitz steam group to get announcements</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="11">
+<start>01:20:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>say -1 Welcome Back!</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="12">
+<start>01:30:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>say -1 Questions? Need Help? Ideas? www.op4squad.com</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="13">
+<start>01:40:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>say -1 Donations keep the server running.</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="14">
+<start>01:50:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>say -1 Need Help? Head over to our Teamspeak at op4squad.teamspeakcp.com or Discord at discord.gg/hTdwwN7</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="15">
+<start>02:00:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>say -1 Sign up on our website www.op4squad.com to donate or make a forum post!</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="16">
+<start>02:10:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>say -1 The full list of rules can be found on our forums.</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="17">
+<start>02:20:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>say -1 Join Teamspeak at op4squad.teamspeakcp.com or Discord at discord.gg/hTdwwN7</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="18">
+<start>02:30:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>say -1 The server's IP can change at any time but you can always use op4servers.ddns.net</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="19">
+<start>02:40:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>say -1 Visit the forums or donate at www.op4squad.com</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="20">
+<start>02:50:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>say -1 Ear plugs can be activated by pressing "U"</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="21">
+<start>03:00:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>say -1 Join the OP4 Wasteland Prime Blitz steam group to get announcements</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="22">
+<start>03:10:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>say -1 Welcome Back!</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="23">
+<start>03:20:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>say -1 Questions? Need Help? Ideas? www.op4squad.com</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="24">
+<start>03:30:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>say -1 Donations keep the server running.</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="25">
+<start>03:40:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>say -1 Need Help? Head over to our Teamspeak at op4squad.teamspeakcp.com or Discord at discord.gg/hTdwwN7</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="26">
+<start>03:50:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>say -1 Sign up on our website www.op4squad.com to donate or make a forum post!</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="27">
+<start>04:00:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>say -1 The full list of rules can be found on our forums.</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="28">
+<start>04:05:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>say -1 Join Teamspeak at op4squad.teamspeakcp.com or Discord at discord.gg/hTdwwN7</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="29">
+<start>04:10:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>say -1 The server's IP can change at any time but you can always use op4servers.ddns.net</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="30">
+<start>04:20:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>say -1 Visit the forums or donate at www.op4squad.com</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="31">
+<start>04:30:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>say -1 Ear plugs can be activated by pressing "U"</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="32">
+<start>04:40:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>say -1 Join the OP4 Wasteland Prime Blitz steam group to get announcements</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="33">
+<start>04:50:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>say -1 Welcome Back!</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="34">
+<start>05:00:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>say -1 Questions? Need Help? Ideas? www.op4squad.com</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="35">
+<start>05:10:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>say -1 Donations keep the server running.</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="36">
+<start>05:20:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>say -1 Need Help? Head over to our Teamspeak at op4squad.teamspeakcp.com or Discord at discord.gg/hTdwwN7</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="37">
+<start>05:30:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>say -1 Sign up on our website www.op4squad.com to donate or make a forum post!</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="38">
+<start>05:40:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>say -1 The full list of rules can be found on our forums.</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="39">
+<start>05:50:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>say -1 *** SERVER WILL AUTO RESTART IN 10 MINUTES !! ***</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="40">
+<start>05:55:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>say -1 *** SERVER WILL AUTO RESTART IN 5 MINUTES !! ***</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="41">
+<start>05:59:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>say -1 *** SERVER WILL AUTO RESTART IN 1 MINUTES !! ***</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<!-- 06:00 AM restart Moved to 8 AM-->
+<job id="42">
+<start>06:00:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>C:\BlitzServer\arma2oa\serverrestart.bat</cmd>
+<cmdtype>1</cmdtype>
+</job>
+
+<job id="43">
+<start>06:10:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>say -1 Join Teamspeak at op4squad.teamspeakcp.com or Discord at discord.gg/hTdwwN7</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="44">
+<start>06:20:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>say -1 The server's IP can change at any time but you can always use op4servers.ddns.net</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="45">
+<start>06:30:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>say -1 Visit the forums or donate at www.op4squad.com</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="46">
+<start>06:40:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>say -1 Ear plugs can be activated by pressing "U"</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="47">
+<start>06:50:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>say -1 Join the OP4 Wasteland Prime Blitz steam group to get announcements</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="48">
+<start>07:00:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>say -1 Welcome Back!</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="49">
+<start>07:10:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>say -1 Questions? Need Help? Ideas? www.op4squad.com</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="50">
+<start>07:20:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>say -1 Donations keep the server running.</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="51">
+<start>07:30:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>say -1 Need Help? Head over to our Teamspeak at op4squad.teamspeakcp.com or Discord at discord.gg/hTdwwN7</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="52">
+<start>07:40:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>say -1 Sign up on our website www.op4squad.com to donate or make a forum post!</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="53">
+<start>07:50:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>say -1 The full list of rules can be found on our forums.</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="54">
+<start>08:00:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>say -1 Join Teamspeak at op4squad.teamspeakcp.com or Discord at discord.gg/hTdwwN7</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="55">
+<start>08:10:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>say -1 The server's IP can change at any time but you can always use op4servers.ddns.net</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="56">
+<start>08:20:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>say -1 Visit the forums or donate at www.op4squad.com</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="57">
+<start>08:30:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>say -1 Ear plugs can be activated by pressing "U"</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="58">
+<start>08:40:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>say -1 Join the OP4 Wasteland Prime Blitz steam group to get announcements</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="59">
+<start>08:50:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>say -1 Welcome Back!</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="60">
+<start>09:00:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>say -1 Questions? Need Help? Ideas? www.op4squad.com</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="61">
+<start>09:10:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>say -1 Donations keep the server running.</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="62">
+<start>09:20:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>say -1 Need Help? Head over to our Teamspeak at op4squad.teamspeakcp.com or Discord at discord.gg/hTdwwN7</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="63">
+<start>09:30:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>say -1 Sign up on our website www.op4squad.com to donate or make a forum post!</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="64">
+<start>09:40:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>say -1 The full list of rules can be found on our forums.</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="65">
+<start>09:50:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>say -1 Join Teamspeak at op4squad.teamspeakcp.com or Discord at discord.gg/hTdwwN7</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="66">
+<start>10:00:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>say -1 The server's IP can change at any time but you can always use op4servers.ddns.net</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="67">
+<start>10:10:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>say -1 Visit the forums or donate at www.op4squad.com</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="68">
+<start>10:20:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>say -1 Ear plugs can be activated by pressing "U"</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="69">
+<start>10:30:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>say -1 Join the OP4 Wasteland Prime Blitz steam group to get announcements</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="70">
+<start>10:40:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>say -1 Welcome Back!</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="71">
+<start>10:50:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>say -1 Questions? Need Help? Ideas? www.op4squad.com</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="72">
+<start>11:00:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>say -1 Donations keep the server running.</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="73">
+<start>11:10:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>say -1 Need Help? Head over to our Teamspeak at op4squad.teamspeakcp.com or Discord at discord.gg/hTdwwN7</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="74">
+<start>11:20:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>say -1 Sign up on our website www.op4squad.com to donate or make a forum post!</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="75">
+<start>11:30:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>say -1 The full list of rules can be found on our forums.</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="76">
+<start>11:40:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>say -1 Join Teamspeak at op4squad.teamspeakcp.com or Discord at discord.gg/hTdwwN7</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="77">
+<start>11:49:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>say -1 The server's IP can change at any time but you can always use op4servers.ddns.net</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="78">
+<start>11:50:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>say -1 *** SERVER WILL AUTO RESTART IN 10 MINUTES !! ***</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="79">
+<start>11:55:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>say -1 *** SERVER WILL AUTO RESTART IN 5 MINUTES !! ***</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="80">
+<start>11:59:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>say -1 *** SERVER WILL AUTO RESTART IN 1 MINUTES !! ***</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<!-- Midday restart removed -->
+<job id="81">
+<start>12:00:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>C:\BlitzServer\arma2oa\serverrestart.bat</cmd>
+<cmdtype>1</cmdtype>
+</job>
+
+<job id="82">
+<start>12:10:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>say -1 Visit the forums or donate at www.op4squad.com</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="83">
+<start>12:20:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>say -1 Ear plugs can be activated by pressing "U"</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="84">
+<start>12:30:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>say -1 Join the OP4 Wasteland Prime Blitz steam group to get announcements</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="85">
+<start>12:40:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>say -1 Welcome Back!</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="86">
+<start>12:50:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>say -1 Questions? Need Help? Ideas? www.op4squad.com</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="87">
+<start>13:00:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>say -1 Donations keep the server running.</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="88">
+<start>13:10:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>say -1 Need Help? Head over to our Teamspeak at op4squad.teamspeakcp.com or Discord at discord.gg/hTdwwN7</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="89">
+<start>13:20:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>say -1 Sign up on our website www.op4squad.com to donate or make a forum post!</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="90">
+<start>13:30:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>say -1 Join Teamspeak at op4squad.teamspeakcp.com or Discord at discord.gg/hTdwwN7</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="91">
+<start>13:40:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>say -1 The server's IP can change at any time but you can always use op4servers.ddns.net</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="92">
+<start>13:50:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>say -1 Visit the forums or donate at www.op4squad.com</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="93">
+<start>14:00:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>say -1 Ear plugs can be activated by pressing "U"</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="94">
+<start>14:10:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>say -1 Join the OP4 Wasteland Prime Blitz steam group to get announcements</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="95">
+<start>14:20:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>say -1 Welcome Back!</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="96">
+<start>14:30:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>say -1 Questions? Need Help? Ideas? www.op4squad.com</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="97">
+<start>14:40:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>say -1 Donations keep the server running.</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="98">
+<start>14:50:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>say -1 Need Help? Head over to our Teamspeak at op4squad.teamspeakcp.com or Discord at discord.gg/hTdwwN7</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="99">
+<start>15:00:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>say -1 Sign up on our website www.op4squad.com to donate or make a forum post!</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="100">
+<start>15:10:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>say -1 The full list of rules can be found on our forums.</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="101">
+<start>15:20:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>say -1 Join Teamspeak at op4squad.teamspeakcp.com or Discord at discord.gg/hTdwwN7</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="102">
+<start>15:30:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>say -1 The server's IP can change at any time but you can always use op4servers.ddns.net</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="103">
+<start>15:40:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>say -1 Visit the forums or donate at www.op4squad.com</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="104">
+<start>15:50:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>say -1 Ear plugs can be activated by pressing "U"</cmd>
+<cmdtype>0</cmdtype>
+</job>
+<!--Do Reset-->
+<job id="105">
+<start>16:00:30</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>4,7</day>
+<loop>0</loop>
+<cmd>say -1 Join the OP4 Wasteland Prime Blitz steam group to get announcements</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="106">
+<start>16:10:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>say -1 Welcome Back!</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<!--No Reset-->
+<job id="107">
+<start>16:20:30</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>say -1 Questions? Need Help? Ideas? www.op4squad.com</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="108">
+<start>16:30:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>say -1 Donations keep the server running.</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="109">
+<start>16:40:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>say -1 Need Help? Head over to our Teamspeak at op4squad.teamspeakcp.com or Discord at discord.gg/hTdwwN7</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="110">
+<start>16:50:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>say -1 Sign up on our website www.op4squad.com to donate or make a forum post!</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<!--No Reset-->
+<job id="111">
+<start>17:01:30</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>4,7</day>
+<loop>0</loop>
+<cmd>say -1 The full list of rules can be found on our forums.</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="112">
+<start>17:10:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>say -1 Join Teamspeak at op4squad.teamspeakcp.com or Discord at discord.gg/hTdwwN7</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="113">
+<start>17:20:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>say -1 Join Teamspeak at op4squad.teamspeakcp.com or Discord at discord.gg/hTdwwN7</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="114">
+<start>17:30:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>say -1 The server's IP can change at any time but you can always use op4servers.ddns.net</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="115">
+<start>17:50:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>say -1 *** SERVER WILL AUTO RESTART IN 10 MINUTES !! ***</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="116">
+<start>17:55:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>say -1 *** SERVER WILL AUTO RESTART IN 5 MINUTES !! ***</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="117">
+<start>17:57:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>C:\BlitzServer\arma2oa\DoReset.bat</cmd>
+<cmdtype>1</cmdtype>
+</job>
+
+<job id="118">
+<start>17:59:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>say -1 *** SERVER WILL AUTO RESTART IN 1 MINUTES !! ***</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<!-- 06:00 PM restart -->
+<job id="119">
+<start>18:00:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>C:\BlitzServer\arma2oa\serverrestart.bat</cmd>
+<cmdtype>1</cmdtype>
+</job>
+
+<job id="120">
+<start>18:15:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>C:\BlitzServer\arma2oa\NoReset.bat</cmd>
+<cmdtype>1</cmdtype>
+</job>
+
+<job id="121">
+<start>18:20:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>say -1 Visit the forums or donate at www.op4squad.com</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="122">
+<start>18:30:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>C:\BlitzServer\arma2oa\NoReset.bat</cmd>
+<cmdtype>1</cmdtype>
+</job>
+
+<job id="123">
+<start>18:40:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>say -1 Ear plugs can be activated by pressing "U"</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="124">
+<start>18:50:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>say -1 Join the OP4 Wasteland Prime Blitz steam group to get announcements</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="125">
+<start>19:00:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>say -1 Welcome Back!</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="126">
+<start>19:10:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>say -1 Questions? Need Help? Ideas? www.op4squad.com</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="127">
+<start>19:20:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>say -1 Donations keep the server running.</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="128">
+<start>19:30:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>say -1 Need Help? Head over to our Teamspeak at op4squad.teamspeakcp.com or Discord at discord.gg/hTdwwN7</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="129">
+<start>19:40:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>say -1 Sign up on our website www.op4squad.com to donate or make a forum post!</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="130">
+<start>19:50:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>say -1 The full list of rules can be found on our forums.</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="131">
+<start>20:00:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>say -1 Join Teamspeak at op4squad.teamspeakcp.com or Discord at discord.gg/hTdwwN7</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="132">
+<start>20:10:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>say -1 The server's IP can change at any time but you can always use op4servers.ddns.net</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="133">
+<start>20:20:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>say -1 Visit the forums or donate at www.op4squad.com</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="134">
+<start>20:30:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>say -1 Ear plugs can be activated by pressing "U"</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="135">
+<start>20:40:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>say -1 Join the OP4 Wasteland Prime Blitz steam group to get announcements</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="136">
+<start>20:50:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>say -1 Welcome Back!</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="137">
+<start>21:00:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>say -1 Questions? Need Help? Ideas? www.op4squad.com</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="138">
+<start>21:10:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>say -1 Donations keep the server running.</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="139">
+<start>21:20:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>say -1 Need Help? Head over to our Teamspeak at op4squad.teamspeakcp.com or Discord at discord.gg/hTdwwN7</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="140">
+<start>21:30:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>say -1 Sign up on our website www.op4squad.com to donate or make a forum post!</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="141">
+<start>21:40:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>say -1 The full list of rules can be found on our forums.</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="142">
+<start>21:50:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>say -1 Join Teamspeak at op4squad.teamspeakcp.com or Discord at discord.gg/hTdwwN7</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="143">
+<start>22:00:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>say -1 The server's IP can change at any time but you can always use op4servers.ddns.net</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="144">
+<start>22:10:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>say -1 Visit the forums or donate at www.op4squad.com</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="145">
+<start>22:20:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>say -1 Ear plugs can be activated by pressing "U"</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="146">
+<start>22:30:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>say -1 Join the OP4 Wasteland Prime Blitz steam group to get announcements</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="147">
+<start>22:40:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>say -1 Welcome Back!</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="148">
+<start>22:50:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>say -1 Questions? Need Help? Ideas? www.op4squad.com</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="149">
+<start>23:00:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>say -1 Donations keep the server running.</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="150">
+<start>23:10:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>say -1 Need Help? Head over to our Teamspeak at op4squad.teamspeakcp.com or Discord at discord.gg/hTdwwN7</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="151">
+<start>23:20:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>say -1 Sign up on our website www.op4squad.com to donate or make a forum post!</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="152">
+<start>23:30:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>say -1 The full list of rules can be found on our forums.</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="153">
+<start>23:40:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>say -1 Join Teamspeak at op4squad.teamspeakcp.com or Discord at discord.gg/hTdwwN7</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="154">
+<start>23:50:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>say -1 The server's IP can change at any time but you can always use op4servers.ddns.net</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="155">
+<start>23:55:00</start>
+<runtime>000000</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>0</loop>
+<cmd>say -1 Visit the forums or donate at www.op4squad.com</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<!--Load Bans-->
+<job id="156">
+<start>000001</start>
+<runtime>000001</runtime>
+<delay>000000</delay>
+<day>1,2,3,4,5,6,7</day>
+<loop>-1</loop>
+<cmd>loadbans</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+</Scheduler>
